@@ -1,0 +1,165 @@
+{
+  "segmento": "eletroportateis",
+  "nome": "Eletrodomésticos e eletroportáteis (linha branca, climatização e portáteis)",
+  "como_o_setor_usa_resina": "Plástico é 30-45% do custo de material de um eletroportátil: PP (carcaças, bases, copos), compostos de PP com talco (peças que esquentam, como air fryer), HIPS/ABS (gabinetes e painéis) e PE (embalagem). A margem do fabricante é apertada e o varejo resiste a repasse, então ele pressiona o fornecedor quando a resina sobe.",
+  "drivers_de_demanda": [
+    "Temperatura e duração do verão (ventiladores: pico de produção de jul a nov)",
+    "Datas do varejo: Black Friday, Natal e Dia das Mães (produção antecipa 2-3 meses)",
+    "Renda, emprego e crédito ao consumidor (bens de ticket baixo, muito parcelados)",
+    "Juros (Selic): crédito no varejo e custo de estoque",
+    "Câmbio: motores, placas e componentes são importados",
+    "Concorrência de importados acabados (China) e de marcas próprias de marketplaces"
+  ],
+  "series_ibge": [
+    "pim_linha_branca",
+    "pim_portateis",
+    "pim_eletrodomesticos",
+    "varejo_eletrodomesticos",
+    "varejo_moveis_eletro",
+    "pim_plastico"
+  ],
+  "empresas_listadas": [
+    {
+      "busca": "WHIRLPOOL",
+      "ticker": "WHRL4.SA",
+      "papel": "Fabricante de eletrodomésticos (referência de margem do setor)"
+    },
+    {
+      "busca": "MAGAZINE LUIZA",
+      "ticker": "MGLU3.SA",
+      "papel": "Varejo (canal de venda do cliente)"
+    },
+    {
+      "busca": "CASAS BAHIA",
+      "ticker": "BHIA3.SA",
+      "papel": "Varejo (canal de venda do cliente)"
+    }
+  ],
+  "consultas_de_noticias_sugeridas": [
+    "Eletros vendas eletrodomésticos",
+    "eletroportáteis vendas",
+    "linha branca vendas varejo",
+    "importação eletrodomésticos China Brasil",
+    "ventiladores vendas calor",
+    "air fryer mercado Brasil",
+    "Black Friday eletrodomésticos",
+    "Mondial eletrodomésticos"
+  ],
+  "perguntas_de_descoberta": [
+    "Qual o forecast de produção do 4º trimestre por linha (ventilação, air fryer)?",
+    "Quanto da compra de resina hoje é importada e de quais origens?",
+    "Como funciona o repasse de custo para o varejo e com quanto atraso?",
+    "Quais grades têm qualificação de segunda fonte?"
+  ],
+  "linhas_importacao": [
+    {
+      "grupo": "Linha branca",
+      "linha": "Refrigeradores e freezers",
+      "sh6": [
+        "841810",
+        "841821",
+        "841829",
+        "841830",
+        "841840"
+      ],
+      "resina": "PS/HIPS e ABS (gabinete interno, gavetas), PU (isolamento)"
+    },
+    {
+      "grupo": "Linha branca",
+      "linha": "Lavadoras de roupa",
+      "sh6": [
+        "845011",
+        "845012",
+        "845019",
+        "845020"
+      ],
+      "resina": "PP com carga (tanque, cesto), ABS (painel)"
+    },
+    {
+      "grupo": "Linha branca",
+      "linha": "Micro-ondas",
+      "sh6": [
+        "851650"
+      ],
+      "resina": "PP e ABS (painel, porta)"
+    },
+    {
+      "grupo": "Linha branca",
+      "linha": "Fogões",
+      "sh6": [
+        "732111"
+      ],
+      "resina": "Baixo uso de plástico (puxadores, botões)"
+    },
+    {
+      "grupo": "Climatização",
+      "linha": "Ar-condicionado",
+      "sh6": [
+        "841510"
+      ],
+      "resina": "ABS/HIPS e PP (gabinete da evaporadora)"
+    },
+    {
+      "grupo": "Climatização",
+      "linha": "Ventiladores",
+      "sh6": [
+        "841451"
+      ],
+      "resina": "PP (hélice, grade, base), ABS"
+    },
+    {
+      "grupo": "Portáteis",
+      "linha": "Air fryers e fornos elétricos",
+      "sh6": [
+        "851660"
+      ],
+      "resina": "PP com talco e PP alta temperatura (carcaça), ABS"
+    },
+    {
+      "grupo": "Portáteis",
+      "linha": "Liquidificadores, batedeiras e processadores",
+      "sh6": [
+        "850940"
+      ],
+      "resina": "PP (base), SAN/copoliéster (copo)"
+    },
+    {
+      "grupo": "Portáteis",
+      "linha": "Cafeteiras",
+      "sh6": [
+        "851671"
+      ],
+      "resina": "PP (carcaça, reservatório)"
+    },
+    {
+      "grupo": "Portáteis",
+      "linha": "Ferros, torradeiras e outros",
+      "sh6": [
+        "851640",
+        "851672"
+      ],
+      "resina": "PP e PBT/PA (alta temperatura)"
+    },
+    {
+      "grupo": "Portáteis",
+      "linha": "Cuidados pessoais (secadores, chapinhas, barbeadores)",
+      "sh6": [
+        "851631",
+        "851632",
+        "851010",
+        "851020",
+        "851030"
+      ],
+      "resina": "PC, PA e ABS (carcaça), PP"
+    },
+    {
+      "grupo": "Portáteis",
+      "linha": "Aspiradores",
+      "sh6": [
+        "850811",
+        "850819"
+      ],
+      "resina": "ABS e PP (carcaça, reservatório)"
+    }
+  ]
+}

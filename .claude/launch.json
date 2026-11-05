@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "painel",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["Preparador de reunião com dados comerciais/backend/servidor.js"],
+      "port": 3000
+    },
+    {
+      "name": "painel-mercado",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["Preparador de reunião sem dados comerciais/backend/servidor.js"],
+      "port": 3001
+    }
+  ]
+}

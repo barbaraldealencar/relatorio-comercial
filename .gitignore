@@ -1,0 +1,22 @@
+# Dependências e segredos
+node_modules/
+.env
+
+# Dados brutos (não vão para o repositório)
+Preparador de reunião com dados comerciais/backend/dados/clientes/
+Preparador de reunião com dados comerciais/backend/dados/peers/
+Preparador de reunião com dados comerciais/backend/dados/emails/
+Preparador de reunião com dados comerciais/backend/dados/reunioes/
+*/backend/dados/cache/
+
+# Informações de campo dos GCs: NÃO são públicas
+Preparador de reunião sem dados comerciais/backend/dados/notas_campo.json
+
+# Saídas geradas (o GitHub Actions gera de novo a cada atualização)
+*/relatorios/*.html
+*/relatorios/*.pdf
+*/relatorios/arquivo/
+site/
+
+# Painéis da versão comercial: números fictícios ligados a nomes reais de empresas
+Preparador de reunião com dados comerciais/relatorios/

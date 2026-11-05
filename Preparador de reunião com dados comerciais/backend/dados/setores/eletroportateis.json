@@ -1,0 +1,228 @@
+{
+  "segmento": "eletroportateis",
+  "nome": "Eletroportáteis (ventiladores, air fryers, liquidificadores, cuidados pessoais)",
+  "_aviso": "Valores dos indicadores são FICTÍCIOS para demonstração. A coluna 'fonte_real' indica onde buscar o dado verdadeiro.",
+  "como_o_setor_usa_resina": "Plástico é 30-45% do custo de material de um eletroportátil. PP (carcaças, bases, copos), compostos de PP com talco (peças que esquentam, como air fryer), HIPS/ABS (gabinetes e painéis) e PEBD (embalagem). Margem do cliente é apertada e o varejo resiste a repasse, então eles pressionam fornecedor quando a resina sobe.",
+  "drivers_de_demanda": [
+    "Temperatura e duração do verão (ventiladores: ~60% das vendas entre set e jan; El Niño/ondas de calor elevam a demanda)",
+    "Datas do varejo: Black Friday (nov), Natal, Dia das Mães (mai) — produção antecipa 2-3 meses",
+    "Renda disponível, emprego e crédito ao consumidor (bens duráveis de ticket baixo, muito parcelados)",
+    "Juros (Selic) — afetam crédito no varejo e custo de estoque do cliente",
+    "Câmbio — componentes eletrônicos e motores são importados; dólar alto aperta a margem do cliente",
+    "Concorrência de importados acabados (China) e de marcas próprias de marketplaces",
+    "Incentivos da Zona Franca de Manaus e mudanças da reforma tributária"
+  ],
+  "indicadores_chave": [
+    {
+      "indicador": "Vendas de eletroportáteis (unidades, a/a)",
+      "ultimo_valor": "+6,2% (jul/2026)",
+      "tendencia": "alta",
+      "fonte_real": "Eletros (Associação Nacional de Fabricantes de Produtos Eletroeletrônicos); GfK/NielsenIQ"
+    },
+    {
+      "indicador": "Produção industrial — eletrodomésticos (IBGE PIM-PF, a/a)",
+      "ultimo_valor": "+3,1% (ago/2026)",
+      "tendencia": "estável",
+      "fonte_real": "IBGE — Pesquisa Industrial Mensal (SIDRA tabela 8888)"
+    },
+    {
+      "indicador": "Vendas no varejo — móveis e eletrodomésticos (IBGE PMC, a/a)",
+      "ultimo_valor": "+2,4% (jul/2026)",
+      "tendencia": "desaceleração",
+      "fonte_real": "IBGE — Pesquisa Mensal de Comércio (SIDRA tabela 8881)"
+    },
+    {
+      "indicador": "Confiança do consumidor (FGV ICC)",
+      "ultimo_valor": "88,5 pts (set/2026)",
+      "tendencia": "queda leve",
+      "fonte_real": "FGV IBRE"
+    },
+    {
+      "indicador": "Inadimplência pessoa física (BCB)",
+      "ultimo_valor": "5,6% (ago/2026)",
+      "tendencia": "estável",
+      "fonte_real": "Banco Central — SGS 21082"
+    },
+    {
+      "indicador": "Previsão de temperatura verão 2026/27 (anomalia)",
+      "ultimo_valor": "+0,8 °C acima da média no Sudeste/Nordeste",
+      "tendencia": "favorável a ventiladores",
+      "fonte_real": "INMET / NOAA (ENSO outlook)"
+    },
+    {
+      "indicador": "Importação de eletroportáteis acabados (US$, a/a)",
+      "ultimo_valor": "+14% (jan-ago/2026)",
+      "tendencia": "alta (ameaça)",
+      "fonte_real": "Comex Stat (MDIC) — NCM 8509, 8516, 8414.51"
+    },
+    {
+      "indicador": "Margem bruta média dos fabricantes listados",
+      "ultimo_valor": "27% (2T26) vs 29% (2T25)",
+      "tendencia": "pressão",
+      "fonte_real": "Relatórios trimestrais de empresas listadas do setor"
+    }
+  ],
+  "projecoes": [
+    {
+      "projecao": "Vendas de eletroportáteis 2026 (unidades)",
+      "valor": "+5% vs 2025",
+      "fonte_ficticia": "Associação setorial (exemplo)",
+      "fonte_real": "Eletros — projeções anuais"
+    },
+    {
+      "projecao": "Vendas de eletroportáteis 2027 (unidades)",
+      "valor": "+3% vs 2026 (desaceleração por juros altos)",
+      "fonte_ficticia": "Consultoria setorial (exemplo)",
+      "fonte_real": "Eletros, GfK/NielsenIQ, relatórios de bancos sobre varejo"
+    },
+    {
+      "projecao": "Temporada de ventiladores 2026/27",
+      "valor": "+8% a +12% (verão mais quente que a média)",
+      "fonte_ficticia": "Fabricantes e varejo (exemplo)",
+      "fonte_real": "INMET/NOAA (El Niño/La Niña) + comentários de empresas listadas"
+    },
+    {
+      "projecao": "Air fryer — penetração nos lares",
+      "valor": "de 42% (2025) para 50% (2027); crescimento migrando para modelos maiores e digitais",
+      "fonte_ficticia": "Pesquisa de mercado (exemplo)",
+      "fonte_real": "Kantar Worldpanel / GfK"
+    },
+    {
+      "projecao": "Black Friday 2026 — eletroportáteis",
+      "valor": "+4% a +7% em faturamento nominal",
+      "fonte_ficticia": "Varejo (exemplo)",
+      "fonte_real": "Neotrust/Confi, ABComm, Ebit|Nielsen"
+    },
+    {
+      "projecao": "Importação de portáteis acabados 2027",
+      "valor": "+10% (pressão de preço da China)",
+      "fonte_ficticia": "Comex (exemplo)",
+      "fonte_real": "Comex Stat (MDIC)"
+    }
+  ],
+  "consultas_de_noticias_sugeridas": [
+    "eletroportáteis vendas",
+    "ventiladores vendas calor",
+    "air fryer mercado Brasil",
+    "Eletros eletroeletrônicos vendas",
+    "varejo eletrodomésticos Black Friday",
+    "Mondial eletroportáteis"
+  ],
+  "riscos_e_oportunidades_tipicos": [
+    "Verão forte → pico de ventiladores → cliente precisa de garantia de abastecimento (alavanca para preço)",
+    "Black Friday → pedidos emergenciais (cobrar prêmio de urgência)",
+    "Importados asiáticos de ABS/HIPS mais baratos → risco de perda de share, defender com serviço, prazo de entrega e estoque local",
+    "Reforma tributária / ZFM → mudança de mix entre plantas BA e AM"
+  ],
+  "linhas_importacao": [
+    {
+      "grupo": "Linha branca",
+      "linha": "Refrigeradores e freezers",
+      "sh6": [
+        "841810",
+        "841821",
+        "841829",
+        "841830",
+        "841840"
+      ],
+      "resina": "PS/HIPS e ABS (gabinete interno, gavetas), PU (isolamento)"
+    },
+    {
+      "grupo": "Linha branca",
+      "linha": "Lavadoras de roupa",
+      "sh6": [
+        "845011",
+        "845012",
+        "845019",
+        "845020"
+      ],
+      "resina": "PP com carga (tanque, cesto), ABS (painel)"
+    },
+    {
+      "grupo": "Linha branca",
+      "linha": "Micro-ondas",
+      "sh6": [
+        "851650"
+      ],
+      "resina": "PP e ABS (painel, porta)"
+    },
+    {
+      "grupo": "Linha branca",
+      "linha": "Fogões",
+      "sh6": [
+        "732111"
+      ],
+      "resina": "Baixo uso de plástico (puxadores, botões)"
+    },
+    {
+      "grupo": "Climatização",
+      "linha": "Ar-condicionado",
+      "sh6": [
+        "841510"
+      ],
+      "resina": "ABS/HIPS e PP (gabinete da evaporadora)"
+    },
+    {
+      "grupo": "Climatização",
+      "linha": "Ventiladores",
+      "sh6": [
+        "841451"
+      ],
+      "resina": "PP (hélice, grade, base), ABS"
+    },
+    {
+      "grupo": "Portáteis",
+      "linha": "Air fryers e fornos elétricos",
+      "sh6": [
+        "851660"
+      ],
+      "resina": "PP com talco e PP alta temperatura (carcaça), ABS"
+    },
+    {
+      "grupo": "Portáteis",
+      "linha": "Liquidificadores, batedeiras e processadores",
+      "sh6": [
+        "850940"
+      ],
+      "resina": "PP (base), SAN/copoliéster (copo)"
+    },
+    {
+      "grupo": "Portáteis",
+      "linha": "Cafeteiras",
+      "sh6": [
+        "851671"
+      ],
+      "resina": "PP (carcaça, reservatório)"
+    },
+    {
+      "grupo": "Portáteis",
+      "linha": "Ferros, torradeiras e outros",
+      "sh6": [
+        "851640",
+        "851672"
+      ],
+      "resina": "PP e PBT/PA (alta temperatura)"
+    },
+    {
+      "grupo": "Portáteis",
+      "linha": "Cuidados pessoais (secadores, chapinhas, barbeadores)",
+      "sh6": [
+        "851631",
+        "851632",
+        "851010",
+        "851020",
+        "851030"
+      ],
+      "resina": "PC, PA e ABS (carcaça), PP"
+    },
+    {
+      "grupo": "Portáteis",
+      "linha": "Aspiradores",
+      "sh6": [
+        "850811",
+        "850819"
+      ],
+      "resina": "ABS e PP (carcaça, reservatório)"
+    }
+  ]
+}

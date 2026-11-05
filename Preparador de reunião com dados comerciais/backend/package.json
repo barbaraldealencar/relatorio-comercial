@@ -1,0 +1,24 @@
+{
+  "name": "preparador-reunioes",
+  "version": "0.1.0",
+  "description": "Agente que prepara briefings para reuniões comerciais com clientes (resinas petroquímicas)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "briefing": "node agentes/preparador_reuniao.js",
+    "gerar-painel": "node agentes/gerar_painel.js",
+    "painel": "node servidor.js",
+    "gerar-dados-demo": "node scripts/gerar_dados_demo.js",
+    "exportar-painel": "node scripts/exportar_painel.js --pdf"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/bedrock-sdk": "^0.34.4",
+    "@anthropic-ai/sdk": "^0.132.1",
+    "chart.js": "^4.4.1",
+    "exceljs": "^4.4.0",
+    "marked": "^18.1.0"
+  }
+}

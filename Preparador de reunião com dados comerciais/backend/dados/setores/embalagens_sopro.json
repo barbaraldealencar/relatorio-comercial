@@ -1,0 +1,47 @@
+{
+  "segmento": "embalagens_sopro",
+  "nome": "Embalagens plásticas sopradas (frascos, bombonas, potes e preformas)",
+  "_aviso": "Valores dos indicadores e projeções são FICTÍCIOS para demonstração. A coluna 'fonte_real' indica onde buscar o dado verdadeiro.",
+  "como_o_setor_usa_resina": "Resina é 55-70% do custo de uma embalagem soprada. PEAD é a base (frascos de limpeza, lubrificantes, alimentos; PEAD de alta massa molar para bombonas de agroquímicos), PEBD em frascos flexíveis (squeeze), PP random em frascos transparentes por injeção-sopro (higiene e farma), PP homopolímero em tampas e potes, PET em garrafas e preformas (sopro de PET). A margem do transformador é pequena e o contrato com o brand owner costuma repassar resina com defasagem de 1 a 3 meses — por isso o transformador briga muito por preço e prazo quando a resina sobe.",
+  "drivers_de_demanda": [
+    "Consumo de bens não duráveis: limpeza, higiene e cosméticos, alimentos e bebidas (renda, emprego, inflação de alimentos)",
+    "Safra agrícola: área plantada e venda de defensivos definem a demanda de bombonas (pico de produção de jun a out para a safra de verão)",
+    "Mercado de lubrificantes: frota circulante e vendas de óleo lubrificante (tendência de leve queda com veículos elétricos e intervalos de troca maiores)",
+    "Conteúdo reciclado (PCR): metas de brand owners e regulação de logística reversa elevam a demanda por resina reciclada de qualidade",
+    "Substituição de embalagem: refis em sachê/stand-up pouch e redução de gramatura (downgauging) reduzem kg por unidade",
+    "Concorrência de PE importado dos EUA (PE de etano, mais barato) e regras de importação/antidumping",
+    "Juros e capital de giro: transformadores pedem mais prazo quando a Selic está alta"
+  ],
+  "indicadores_chave": [
+    { "indicador": "Produção de transformados plásticos (a/a)", "ultimo_valor": "+1,8% (jul/2026)", "tendencia": "estável", "fonte_real": "ABIPLAST — Perfil e indicadores mensais" },
+    { "indicador": "Vendas de higiene pessoal, perfumaria e cosméticos (a/a, real)", "ultimo_valor": "+4,5% (1º sem/2026)", "tendencia": "alta", "fonte_real": "ABIHPEC — panorama do setor" },
+    { "indicador": "Vendas de produtos de limpeza (a/a, volume)", "ultimo_valor": "+2,1% (jul/2026)", "tendencia": "estável", "fonte_real": "ABIPLA / NielsenIQ" },
+    { "indicador": "Vendas de defensivos agrícolas (área tratada, a/a)", "ultimo_valor": "+6% (safra 25/26)", "tendencia": "alta", "fonte_real": "Sindiveg; CONAB (área plantada safra 26/27)" },
+    { "indicador": "Vendas de óleo lubrificante acabado (a/a)", "ultimo_valor": "−1,2% (jan-ago/2026)", "tendencia": "queda leve", "fonte_real": "ANP — Painel dinâmico de lubrificantes" },
+    { "indicador": "Produção de bens de consumo semi e não duráveis (IBGE PIM, a/a)", "ultimo_valor": "+1,5% (ago/2026)", "tendencia": "estável", "fonte_real": "IBGE — PIM-PF por categoria de uso (SIDRA 8887)" },
+    { "indicador": "Spread PEAD importado EUA vs nacional", "ultimo_valor": "PE americano ~8-10% abaixo do nacional (set/2026)", "tendencia": "pressão", "fonte_real": "ICIS / Platts (PEAD US Gulf FOB) + frete e imposto de importação" },
+    { "indicador": "Conteúdo médio de PCR exigido por brand owners em frascos de limpeza", "ultimo_valor": "18% (2026) com meta de 30% em 2027", "tendencia": "alta", "fonte_real": "Relatórios de sustentabilidade de brand owners; Compromisso Embalagem Plástica" }
+  ],
+  "projecoes": [
+    { "projecao": "Produção de transformados plásticos 2027", "valor": "+2,0% a +2,5%", "fonte_ficticia": "Associação setorial (exemplo)", "fonte_real": "ABIPLAST — projeções anuais" },
+    { "projecao": "Área plantada de soja safra 26/27", "valor": "+2% a +3% (bombonas de defensivos acompanham)", "fonte_ficticia": "Conab (exemplo)", "fonte_real": "CONAB — acompanhamento da safra" },
+    { "projecao": "Demanda de PEAD PCR grau sopro no Brasil 2027", "valor": "+35% a +45% (falta de oferta de PCR de qualidade)", "fonte_ficticia": "Consultoria de reciclagem (exemplo)", "fonte_real": "ABREMA / Plastivida / relatórios de recicladores" },
+    { "projecao": "Lubrificantes 2027", "valor": "−1% a −2% em volume", "fonte_ficticia": "Distribuidoras (exemplo)", "fonte_real": "ANP / Sindicom" },
+    { "projecao": "Importação de PE dos EUA 2027", "valor": "+15% (nova capacidade de etano nos EUA)", "fonte_ficticia": "Comex (exemplo)", "fonte_real": "Comex Stat (MDIC) — NCM 3901" }
+  ],
+  "consultas_de_noticias_sugeridas": [
+    "embalagens plásticas sopradas mercado",
+    "polietileno importado EUA Brasil",
+    "resina reciclada PCR embalagens",
+    "defensivos agrícolas vendas safra",
+    "ABIPLAST transformados plásticos",
+    "Globalpack embalagens"
+  ],
+  "riscos_e_oportunidades_tipicos": [
+    "Safra forte → pico de bombonas entre jun e out → garantia de abastecimento vale preço (cobrar reserva de capacidade)",
+    "PE americano mais barato → perda de volume em grades commodity (bombonas); defender com serviço, consistência de qualidade (ESCR) e estoque local",
+    "PCR é escasso e estratégico → alavanca para fidelizar o cliente e trocar por volume de resina virgem",
+    "Downgauging e refis → menos kg por embalagem: crescer share em vez de volume do cliente",
+    "Pedidos de prazo maior em ambiente de Selic alta → calcular custo financeiro e oferecer desconto por antecipação"
+  ]
+}

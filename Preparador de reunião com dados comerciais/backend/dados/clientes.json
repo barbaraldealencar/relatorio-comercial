@@ -1,0 +1,23 @@
+{
+  "_comentario": "Cadastro dos clientes que o agente conhece. Para adicionar um cliente, copie um bloco e aponte para os arquivos dele (caminhos relativos à pasta dados/).",
+  "mondial": {
+    "nome": "Mondial",
+    "segmento": "eletroportateis",
+    "base_historica": "clientes/base_cliente_mondial.xlsx",
+    "base_peers": "peers/base_peers_eletroportateis.xlsx",
+    "emails": "emails/mondial.json",
+    "atas_reunioes": "reunioes/mondial",
+    "kam": "Ana Ribeiro",
+    "dados_ficticios": true
+  },
+  "globalpack": {
+    "nome": "Globalpack",
+    "segmento": "embalagens_sopro",
+    "base_historica": "clientes/base_cliente_globalpack.xlsx",
+    "base_peers": "peers/base_peers_embalagens_sopro.xlsx",
+    "emails": "emails/globalpack.json",
+    "atas_reunioes": "reunioes/globalpack",
+    "kam": "Rafael Moura",
+    "dados_ficticios": true
+  }
+}

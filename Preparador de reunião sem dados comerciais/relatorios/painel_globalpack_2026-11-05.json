@@ -1,0 +1,4216 @@
+{
+  "meta": {
+    "cliente": "Globalpack",
+    "id": "globalpack",
+    "segmento": "embalagens_sopro",
+    "kam": "Rafael Moura",
+    "gerado_em": "2026-11-05",
+    "dados_atualizados_em": "2026-11-05",
+    "data_reuniao": null,
+    "modelo": "Claude (sessão de desenvolvimento)",
+    "dados_ficticios": false,
+    "versao": "mercado"
+  },
+  "insights": {
+    "postura_recomendada": "Antecipar o alívio do PE, mas mostrar o atraso: o pico de set-out ainda passa no custo de nov-dez, e o dólar subiu 7%.",
+    "mensagem_central": "O Brent caiu de US$ 124 (out) para menos de US$ 100 com a expectativa de acordo EUA-Irã, mas o dólar a R$ 5,48 segura o custo do PE em reais, num setor de embalagem em queda.",
+    "kpis": [
+      {
+        "rotulo": "Brent",
+        "valor": "US$ 107/bbl",
+        "detalhe": "03/11; média de out US$ 124 (FRED). Abaixo de US$ 100 em 04/11",
+        "tom": "positivo"
+      },
+      {
+        "rotulo": "Dólar",
+        "valor": "R$ 5,48",
+        "detalhe": "04/11, +6,9% vs média de out (BC)",
+        "tom": "atencao"
+      },
+      {
+        "rotulo": "PE importado",
+        "valor": "US$ 1.460/t",
+        "detalhe": "FOB set/26; frete US$ 87/t (Comex)",
+        "tom": "neutro"
+      },
+      {
+        "rotulo": "PE projetado",
+        "valor": "+9,5%",
+        "detalhe": "Com o Brent de jan/27 a US$ 97 (Comex, NYMEX)",
+        "tom": "atencao"
+      }
+    ],
+    "resumo": [
+      "Brent médio de US$ 124 em out; caiu abaixo de US$ 100 em 04/11 com a expectativa de acordo EUA-Irã (VEJA).",
+      "Dólar a R$ 5,48 em 04/11 (+6,9% vs out): compensa parte do alívio em reais (BC).",
+      "Frete do PE importado em US$ 87/t (5,6% do CIF); Xeneta prevê fretes 30% menores em 2027 (Comex, IndexBox).",
+      "Produção de embalagens plásticas −8,7% em set (IBGE)."
+    ],
+    "insights_por_bloco": [
+      {
+        "bloco": "Macro",
+        "insight": "Brent caiu ~20% em novembro, mas o dólar subiu 7%: em reais, o alívio é bem menor. Use isso para segurar pedidos de redução imediata."
+      },
+      {
+        "bloco": "Resina (PE)",
+        "insight": "O PE importado reage ao Brent com 3 meses: o petróleo caro de ago-out ainda chega em nov-jan; projeção +9,5% antes do alívio."
+      },
+      {
+        "bloco": "Setor",
+        "insight": "Embalagens plásticas −8,7% em set, mas limpeza e cosméticos +7%: puxe a conversa para as linhas que crescem."
+      },
+      {
+        "bloco": "Cliente",
+        "insight": "Grande soprador multissegmento com reciclagem própria: ofereça PE virgem com qualidade constante para misturar com reciclado."
+      },
+      {
+        "bloco": "Informações de campo",
+        "insight": "Nenhuma informação de campo registrada para o segmento até 05/11."
+      },
+      {
+        "bloco": "Projeções",
+        "insight": "Curva do Brent a US$ 97 em jan/27 e US$ 80 em dez/27: proponha fórmula simétrica que reduz o preço quando o custo cair."
+      },
+      {
+        "bloco": "Roteiro",
+        "insight": "Feche o 4º tri no preço atual em troca de uma fórmula de redução automática a partir de fevereiro."
+      }
+    ],
+    "macro": {
+      "mensagem": "Petróleo em queda e dólar em alta: em reais, o alívio é parcial.",
+      "insights": [
+        "Brent: média de US$ 124 em out; abaixo de US$ 100 em 04/11 com a expectativa de acordo EUA-Irã.",
+        "Dólar a R$ 5,48 em 04/11, +6,9% vs out, após a reeleição; Copom manteve a Selic em 13,75%.",
+        "Frete do PE caiu para US$ 87/t em set; Xeneta vê fretes marítimos 30% menores em 2027."
+      ],
+      "manchetes": [
+        {
+          "titulo": "Petróleo cai quase 9% e fica abaixo de US$ 100 com expectativa de fim da guerra no Irã",
+          "veiculo": "VEJA",
+          "data": "2026-11-04",
+          "implicacao": "O cliente vai pedir redução: mostre o atraso de 3 meses e o dólar."
+        },
+        {
+          "titulo": "Copom interrompe cortes e mantém Selic a 13,75%",
+          "veiculo": "CartaCapital",
+          "data": "2026-11-04",
+          "implicacao": "Prazo continua caro: cada dia a mais tem custo financeiro alto."
+        },
+        {
+          "titulo": "Xeneta: tarifas spot marítimas devem cair 30% em 2027 com retorno ao Mar Vermelho",
+          "veiculo": "IndexBox",
+          "data": "2026-11-05",
+          "implicacao": "O importado fica mais competitivo em 2027."
+        }
+      ]
+    },
+    "mercado": {
+      "mensagem": "O PE importado ainda carrega o petróleo caro de ago-out; o alívio chega em 2027.",
+      "insights": [
+        "PE importado a US$ 1.460/t FOB em set (−5% em 3 meses), referência Comex Stat.",
+        "Reage ao Brent com 3 meses (elasticidade 0,60); projeção +9,5% com o Brent de jan/27 a US$ 97.",
+        "Braskem: spreads de volta ao nível pré-guerra no 3º tri (Valor, 29/10)."
+      ]
+    },
+    "setor": {
+      "mensagem": "Demanda de embalagem fraca, com exceção de limpeza e cosméticos.",
+      "insights": [
+        "Produção de embalagens plásticas −8,7% em set (IBGE 22.22).",
+        "Limpeza e cosméticos +7,0% em set; alimentos −5,9% (IBGE).",
+        "Plástico reciclado volta a competir com a resina virgem (Valor, 04/10)."
+      ],
+      "demanda_3m": "queda",
+      "poder_barganha_cliente": "alto",
+      "justificativa": "Petróleo em queda, demanda fraca e reciclado competitivo dão força ao cliente para pedir redução.",
+      "manchetes": [
+        {
+          "titulo": "Plástico reciclado retoma competitividade e recuperação de resíduos volta a crescer",
+          "veiculo": "Valor Econômico",
+          "data": "2026-10-04",
+          "implicacao": "O cliente tem alternativa em PCR; reforce qualidade e constância da virgem."
+        },
+        {
+          "titulo": "Governo fecha cerco aos créditos de reciclagem de embalagens plásticas",
+          "veiculo": "VEJA",
+          "data": "2026-10-21",
+          "implicacao": "Mais exigência de reciclado real: oportunidade de oferta conjunta."
+        }
+      ]
+    },
+    "cliente": {
+      "mensagem": "Grande soprador multissegmento, com reciclagem própria.",
+      "insights": [
+        "~1 bilhão de embalagens/ano e ~1.100 funcionários, sede em Vinhedo-SP (site).",
+        "Atende alimentos, higiene e cosméticos, limpeza, farma, lubrificantes e agro (site).",
+        "Reciclagem bottle-to-bottle própria; nenhum fato novo nos últimos 30 dias."
+      ],
+      "movimentos": [
+        {
+          "fato": "Nenhum fato corporativo novo nos últimos 30 dias",
+          "fonte": "Google News",
+          "implicacao": "Use a reunião para entender o plano de 2027."
+        }
+      ]
+    },
+    "campo": {
+      "mensagem": "Nenhuma informação de campo registrada para o segmento até 05/11.",
+      "itens": []
+    },
+    "projecoes": {
+      "mensagem": "Alívio gradual do petróleo em 2027; dólar e juros seguem altos.",
+      "insights": [
+        "Curva do Brent: US$ 97 (jan/27) e US$ 80 (dez/27) (NYMEX, 05/11).",
+        "EIA: US$ 104 em nov e US$ 99 em dez.",
+        "Focus: Selic 13,5% no fim de 2026 e dólar a R$ 5,34 (BC, 30/10)."
+      ],
+      "implicacao_estrategica": "Negocie agora uma fórmula ligada ao Brent em reais: o cliente ganha a queda quando ela chegar, e nós evitamos desconto antecipado."
+    },
+    "hipoteses": [
+      {
+        "hipotese": "O cliente vai pedir redução imediata citando o Brent",
+        "evidencia": "Brent abaixo de US$ 100 em 04/11",
+        "como_confirmar": "Vocês esperam repasse da queda já em novembro?"
+      },
+      {
+        "hipotese": "Vai usar mais reciclado em 2027",
+        "evidencia": "PCR competitivo (Valor, 04/10)",
+        "como_confirmar": "Qual % de reciclado vocês querem usar em 2027?"
+      },
+      {
+        "hipotese": "Volume menor no fim do ano",
+        "evidencia": "Embalagens −8,7% em set",
+        "como_confirmar": "Como está o forecast de PE por segmento até jan?"
+      }
+    ],
+    "roteiro": {
+      "objetivo": "Manter o preço do PE no 4º tri e combinar uma fórmula de redução automática a partir de fevereiro.",
+      "abertura": "O petróleo caiu forte nesta semana, e isso é bom para os dois lados. Mas o PE reage com uns três meses de atraso, e o dólar subiu 7% no mesmo período. Quero propor um jeito transparente de vocês capturarem a queda quando ela chegar.",
+      "argumentos": [
+        {
+          "argumento": "A queda ainda não chegou ao custo",
+          "dado": "PE reage ao Brent com 3 meses; ago-out a US$ 91-124"
+        },
+        {
+          "argumento": "O dólar compensa parte do alívio",
+          "dado": "R$ 5,48 em 04/11, +6,9% vs out"
+        },
+        {
+          "argumento": "Fórmula protege os dois lados",
+          "dado": "Curva do Brent a US$ 97 em jan/27 e US$ 80 em dez/27"
+        }
+      ],
+      "perguntas_descoberta": [
+        "Vocês esperam repasse da queda já em novembro?",
+        "Qual % de reciclado vocês querem usar em 2027?",
+        "Como está o forecast de PE por segmento até janeiro?"
+      ],
+      "objecoes": [
+        {
+          "objecao": "O petróleo caiu 20%, quero redução agora.",
+          "resposta": "O PE de nov-jan ainda carrega o Brent de ago-out; e o dólar subiu 7%. Proponho fórmula que reduz a partir de fevereiro."
+        },
+        {
+          "objecao": "Minha demanda está caindo.",
+          "resposta": "Por isso a fórmula: previsibilidade para planejar o 1º tri, com redução automática quando o custo cair."
+        },
+        {
+          "objecao": "Vou usar mais reciclado.",
+          "resposta": "Podemos combinar virgem e reciclado com qualidade constante para higiene e cosméticos."
+        }
+      ]
+    },
+    "riscos": [
+      {
+        "risco": "Pedido de redução imediata",
+        "probabilidade": "alta",
+        "impacto": "Margem no 4º tri",
+        "mitigacao": "Fórmula com redução a partir de fevereiro"
+      },
+      {
+        "risco": "Troca de virgem por reciclado",
+        "probabilidade": "média",
+        "impacto": "Perda gradual de volume",
+        "mitigacao": "Oferta conjunta virgem + reciclado"
+      },
+      {
+        "risco": "Acordo EUA-Irã falhar",
+        "probabilidade": "média",
+        "impacto": "Brent volta acima de US$ 110",
+        "mitigacao": "Fórmula simétrica protege os dois lados"
+      }
+    ],
+    "proximos_passos": [
+      {
+        "quando": "antes",
+        "acao": "Preparar a proposta de fórmula ligada ao Brent em reais"
+      },
+      {
+        "quando": "na reunião",
+        "acao": "Fazer as 3 perguntas de descoberta"
+      },
+      {
+        "quando": "depois",
+        "acao": "Registrar o que ouviu como informação de campo no painel"
+      }
+    ]
+  },
+  "graficos": {
+    "macro_tiles": {
+      "brent": {
+        "ultimo": 107.03,
+        "data": "2026-11-03",
+        "unidade": "US$/barril",
+        "var_1m_%": -21,
+        "var_3m_%": 23.8,
+        "var_12m_%": 62.7
+      },
+      "wti": {
+        "ultimo": 99.64,
+        "data": "2026-11-03",
+        "unidade": "US$/barril",
+        "var_1m_%": 1.8,
+        "var_3m_%": 28.9,
+        "var_12m_%": 61.3
+      },
+      "dolar": {
+        "ultimo": 5.4778,
+        "data": "2026-11-04",
+        "unidade": "R$/US$",
+        "var_1m_%": 9.9,
+        "var_3m_%": 7.1,
+        "var_12m_%": 1.7
+      },
+      "selic": {
+        "ultimo": 13.75,
+        "data": "2026-11-05",
+        "unidade": "% a.a.",
+        "var_3m_%": -1.8,
+        "var_12m_%": -8.3
+      },
+      "ipca": {
+        "ultimo": 4.58,
+        "data": "2026-09-01",
+        "unidade": "% em 12 meses"
+      }
+    },
+    "brent_historico": [
+      {
+        "mes": "2025-11",
+        "brent": 63.8
+      },
+      {
+        "mes": "2025-12",
+        "brent": 62.54
+      },
+      {
+        "mes": "2026-01",
+        "brent": 66.6
+      },
+      {
+        "mes": "2026-02",
+        "brent": 70.89
+      },
+      {
+        "mes": "2026-03",
+        "brent": 103.13
+      },
+      {
+        "mes": "2026-04",
+        "brent": 117.29
+      },
+      {
+        "mes": "2026-05",
+        "brent": 107.14
+      },
+      {
+        "mes": "2026-06",
+        "brent": 85.4
+      },
+      {
+        "mes": "2026-07",
+        "brent": 83.76
+      },
+      {
+        "mes": "2026-08",
+        "brent": 91.08
+      },
+      {
+        "mes": "2026-09",
+        "brent": 114.16
+      },
+      {
+        "mes": "2026-10",
+        "brent": 123.93
+      },
+      {
+        "mes": "2026-11",
+        "brent": 107.21
+      }
+    ],
+    "brent_projecao": {
+      "curva_futura": [
+        {
+          "mes": "2027-01",
+          "valor": 96.7,
+          "desatualizado": false
+        },
+        {
+          "mes": "2027-02",
+          "valor": 93.71,
+          "desatualizado": false
+        },
+        {
+          "mes": "2027-03",
+          "valor": 91.6,
+          "desatualizado": false
+        },
+        {
+          "mes": "2027-04",
+          "valor": 89.47,
+          "desatualizado": false
+        },
+        {
+          "mes": "2027-05",
+          "valor": 87.81,
+          "desatualizado": false
+        },
+        {
+          "mes": "2027-06",
+          "valor": 86.67,
+          "desatualizado": false
+        },
+        {
+          "mes": "2027-07",
+          "valor": 90.42,
+          "desatualizado": false
+        },
+        {
+          "mes": "2027-08",
+          "valor": 82.63,
+          "desatualizado": false
+        },
+        {
+          "mes": "2027-09",
+          "valor": 81.12,
+          "desatualizado": false
+        },
+        {
+          "mes": "2027-10",
+          "valor": 87.17,
+          "desatualizado": false
+        },
+        {
+          "mes": "2027-11",
+          "valor": 85.5,
+          "desatualizado": false
+        },
+        {
+          "mes": "2027-12",
+          "valor": 79.68,
+          "desatualizado": false
+        },
+        {
+          "mes": "2028-01",
+          "valor": 82.5,
+          "desatualizado": false
+        },
+        {
+          "mes": "2028-02",
+          "valor": 82.18,
+          "desatualizado": false
+        }
+      ],
+      "eia": []
+    },
+    "focus": {
+      "data_pesquisa": "2026-10-30",
+      "IPCA": {
+        "2026": 5.22,
+        "2027": 4.76,
+        "2028": 4
+      },
+      "Selic": {
+        "2026": 13.5,
+        "2027": 12.5,
+        "2028": 11
+      },
+      "PIB Total": {
+        "2026": 1.76,
+        "2027": 1.2,
+        "2028": 1.8
+      },
+      "Câmbio": {
+        "2026": 5.34,
+        "2027": 5.4,
+        "2028": 5.4
+      }
+    },
+    "importacoes": [
+      {
+        "posicao": "3901",
+        "descricao": "Polietilenos (PE: PEAD, PEBD, PELBD)",
+        "ultimo_mes": "2026-09",
+        "preco_ultimo_US$_t": 1460,
+        "preco_var_3m_pct": -5.3,
+        "preco_var_12m_pct": 30.5,
+        "volume_ultimo_t": 118986,
+        "volume_12m_t": 1985883,
+        "volume_12m_var_pct": 4.3,
+        "elasticidade_preco_vs_brent": 0.6,
+        "defasagem_meses": 3,
+        "correlacao_com_brent": 0.91,
+        "projecao_proximos_meses": {
+          "brent_ultimo_mes_US$": 83.8,
+          "brent_futuro_proximo_US$": 96.7,
+          "variacao_preco_projetada_pct": 9.2,
+          "preco_projetado_US$_t": 1594
+        },
+        "serie_mensal": [
+          {
+            "mes": "2024-10",
+            "volume_t": 177278,
+            "preco_US$_t": 1244,
+            "frete_US$_t": 53,
+            "frete_pct_cif": 4.1
+          },
+          {
+            "mes": "2024-11",
+            "volume_t": 109368,
+            "preco_US$_t": 1262,
+            "frete_US$_t": 82,
+            "frete_pct_cif": 6.1
+          },
+          {
+            "mes": "2024-12",
+            "volume_t": 140963,
+            "preco_US$_t": 1263,
+            "frete_US$_t": 72,
+            "frete_pct_cif": 5.4
+          },
+          {
+            "mes": "2025-01",
+            "volume_t": 183145,
+            "preco_US$_t": 1191,
+            "frete_US$_t": 75,
+            "frete_pct_cif": 5.9
+          },
+          {
+            "mes": "2025-02",
+            "volume_t": 156082,
+            "preco_US$_t": 1180,
+            "frete_US$_t": 61,
+            "frete_pct_cif": 4.9
+          },
+          {
+            "mes": "2025-03",
+            "volume_t": 130889,
+            "preco_US$_t": 1183,
+            "frete_US$_t": 58,
+            "frete_pct_cif": 4.7
+          },
+          {
+            "mes": "2025-04",
+            "volume_t": 147523,
+            "preco_US$_t": 1168,
+            "frete_US$_t": 54,
+            "frete_pct_cif": 4.4
+          },
+          {
+            "mes": "2025-05",
+            "volume_t": 178911,
+            "preco_US$_t": 1175,
+            "frete_US$_t": 56,
+            "frete_pct_cif": 4.6
+          },
+          {
+            "mes": "2025-06",
+            "volume_t": 160894,
+            "preco_US$_t": 1171,
+            "frete_US$_t": 50,
+            "frete_pct_cif": 4.1
+          },
+          {
+            "mes": "2025-07",
+            "volume_t": 177173,
+            "preco_US$_t": 1117,
+            "frete_US$_t": 54,
+            "frete_pct_cif": 4.6
+          },
+          {
+            "mes": "2025-08",
+            "volume_t": 180251,
+            "preco_US$_t": 1074,
+            "frete_US$_t": 57,
+            "frete_pct_cif": 5.1
+          },
+          {
+            "mes": "2025-09",
+            "volume_t": 162188,
+            "preco_US$_t": 1119,
+            "frete_US$_t": 51,
+            "frete_pct_cif": 4.4
+          },
+          {
+            "mes": "2025-10",
+            "volume_t": 202205,
+            "preco_US$_t": 1079,
+            "frete_US$_t": 50,
+            "frete_pct_cif": 4.4
+          },
+          {
+            "mes": "2025-11",
+            "volume_t": 165001,
+            "preco_US$_t": 1078,
+            "frete_US$_t": 48,
+            "frete_pct_cif": 4.3
+          },
+          {
+            "mes": "2025-12",
+            "volume_t": 154093,
+            "preco_US$_t": 1052,
+            "frete_US$_t": 46,
+            "frete_pct_cif": 4.2
+          },
+          {
+            "mes": "2026-01",
+            "volume_t": 186506,
+            "preco_US$_t": 1008,
+            "frete_US$_t": 49,
+            "frete_pct_cif": 4.6
+          },
+          {
+            "mes": "2026-02",
+            "volume_t": 134617,
+            "preco_US$_t": 1055,
+            "frete_US$_t": 46,
+            "frete_pct_cif": 4.2
+          },
+          {
+            "mes": "2026-03",
+            "volume_t": 169595,
+            "preco_US$_t": 1074,
+            "frete_US$_t": 47,
+            "frete_pct_cif": 4.2
+          },
+          {
+            "mes": "2026-04",
+            "volume_t": 163238,
+            "preco_US$_t": 1122,
+            "frete_US$_t": 65,
+            "frete_pct_cif": 5.5
+          },
+          {
+            "mes": "2026-05",
+            "volume_t": 168574,
+            "preco_US$_t": 1335,
+            "frete_US$_t": 67,
+            "frete_pct_cif": 4.8
+          },
+          {
+            "mes": "2026-06",
+            "volume_t": 186259,
+            "preco_US$_t": 1542,
+            "frete_US$_t": 75,
+            "frete_pct_cif": 4.6
+          },
+          {
+            "mes": "2026-07",
+            "volume_t": 205644,
+            "preco_US$_t": 1715,
+            "frete_US$_t": 84,
+            "frete_pct_cif": 4.7
+          },
+          {
+            "mes": "2026-08",
+            "volume_t": 131165,
+            "preco_US$_t": 1613,
+            "frete_US$_t": 107,
+            "frete_pct_cif": 6.2
+          },
+          {
+            "mes": "2026-09",
+            "volume_t": 118986,
+            "preco_US$_t": 1460,
+            "frete_US$_t": 87,
+            "frete_pct_cif": 5.6
+          }
+        ]
+      }
+    ],
+    "ibge": [
+      {
+        "id": "pim_embalagens_plasticas",
+        "nome": "Produção — embalagens de material plástico (22.22)",
+        "ultimo_mes": "2026-09",
+        "var_aa_pct": -8.7,
+        "var_12m_pct": -0.2,
+        "serie": [
+          {
+            "mes": "2024-10",
+            "indice": 118.2,
+            "var_aa_pct": 11.2,
+            "var_12m_pct": 7
+          },
+          {
+            "mes": "2024-11",
+            "indice": 108.4,
+            "var_aa_pct": 2.5,
+            "var_12m_pct": 6.8
+          },
+          {
+            "mes": "2024-12",
+            "indice": 93.4,
+            "var_aa_pct": -3.3,
+            "var_12m_pct": 6.3
+          },
+          {
+            "mes": "2025-01",
+            "indice": 102.4,
+            "var_aa_pct": -2.1,
+            "var_12m_pct": 5.9
+          },
+          {
+            "mes": "2025-02",
+            "indice": 103.7,
+            "var_aa_pct": 0.4,
+            "var_12m_pct": 5.2
+          },
+          {
+            "mes": "2025-03",
+            "indice": 110.7,
+            "var_aa_pct": 3.8,
+            "var_12m_pct": 5.7
+          },
+          {
+            "mes": "2025-04",
+            "indice": 105.6,
+            "var_aa_pct": -1.4,
+            "var_12m_pct": 4.7
+          },
+          {
+            "mes": "2025-05",
+            "indice": 111.1,
+            "var_aa_pct": 0.2,
+            "var_12m_pct": 3.9
+          },
+          {
+            "mes": "2025-06",
+            "indice": 108.7,
+            "var_aa_pct": 0.9,
+            "var_12m_pct": 3.3
+          },
+          {
+            "mes": "2025-07",
+            "indice": 110.2,
+            "var_aa_pct": -2.5,
+            "var_12m_pct": 2.1
+          },
+          {
+            "mes": "2025-08",
+            "indice": 110,
+            "var_aa_pct": -5.8,
+            "var_12m_pct": 0.9
+          },
+          {
+            "mes": "2025-09",
+            "indice": 113.3,
+            "var_aa_pct": 2.7,
+            "var_12m_pct": 0.5
+          },
+          {
+            "mes": "2025-10",
+            "indice": 117.6,
+            "var_aa_pct": -0.5,
+            "var_12m_pct": -0.5
+          },
+          {
+            "mes": "2025-11",
+            "indice": 112,
+            "var_aa_pct": 3.3,
+            "var_12m_pct": -0.4
+          },
+          {
+            "mes": "2025-12",
+            "indice": 99.6,
+            "var_aa_pct": 6.6,
+            "var_12m_pct": 0.3
+          },
+          {
+            "mes": "2026-01",
+            "indice": 106,
+            "var_aa_pct": 3.5,
+            "var_12m_pct": 0.8
+          },
+          {
+            "mes": "2026-02",
+            "indice": 107.5,
+            "var_aa_pct": 3.7,
+            "var_12m_pct": 1
+          },
+          {
+            "mes": "2026-03",
+            "indice": 111.2,
+            "var_aa_pct": 0.5,
+            "var_12m_pct": 0.8
+          },
+          {
+            "mes": "2026-04",
+            "indice": 110,
+            "var_aa_pct": 4.2,
+            "var_12m_pct": 1.2
+          },
+          {
+            "mes": "2026-05",
+            "indice": 110.6,
+            "var_aa_pct": -0.4,
+            "var_12m_pct": 1.2
+          },
+          {
+            "mes": "2026-06",
+            "indice": 105.8,
+            "var_aa_pct": -2.6,
+            "var_12m_pct": 0.9
+          },
+          {
+            "mes": "2026-07",
+            "indice": 107,
+            "var_aa_pct": -3,
+            "var_12m_pct": 0.9
+          },
+          {
+            "mes": "2026-08",
+            "indice": 102.3,
+            "var_aa_pct": -7.1,
+            "var_12m_pct": 0.8
+          },
+          {
+            "mes": "2026-09",
+            "indice": 103.5,
+            "var_aa_pct": -8.7,
+            "var_12m_pct": -0.2
+          }
+        ]
+      },
+      {
+        "id": "pim_limpeza_cosmeticos",
+        "nome": "Produção — sabões, limpeza, cosméticos e higiene (20.6)",
+        "ultimo_mes": "2026-09",
+        "var_aa_pct": 7,
+        "var_12m_pct": 1.2,
+        "serie": [
+          {
+            "mes": "2024-10",
+            "indice": 107.5,
+            "var_aa_pct": 1,
+            "var_12m_pct": 2.4
+          },
+          {
+            "mes": "2024-11",
+            "indice": 95.8,
+            "var_aa_pct": -8.7,
+            "var_12m_pct": 0.9
+          },
+          {
+            "mes": "2024-12",
+            "indice": 84,
+            "var_aa_pct": -4.1,
+            "var_12m_pct": 1
+          },
+          {
+            "mes": "2025-01",
+            "indice": 97.9,
+            "var_aa_pct": -7.1,
+            "var_12m_pct": 0.3
+          },
+          {
+            "mes": "2025-02",
+            "indice": 100.2,
+            "var_aa_pct": -3,
+            "var_12m_pct": -0.7
+          },
+          {
+            "mes": "2025-03",
+            "indice": 105,
+            "var_aa_pct": -4.8,
+            "var_12m_pct": -0.8
+          },
+          {
+            "mes": "2025-04",
+            "indice": 97.6,
+            "var_aa_pct": -9.5,
+            "var_12m_pct": -1.9
+          },
+          {
+            "mes": "2025-05",
+            "indice": 104.7,
+            "var_aa_pct": -5.3,
+            "var_12m_pct": -3.1
+          },
+          {
+            "mes": "2025-06",
+            "indice": 101.7,
+            "var_aa_pct": -6.9,
+            "var_12m_pct": -3.9
+          },
+          {
+            "mes": "2025-07",
+            "indice": 103.4,
+            "var_aa_pct": -8.8,
+            "var_12m_pct": -5
+          },
+          {
+            "mes": "2025-08",
+            "indice": 100.9,
+            "var_aa_pct": -8.9,
+            "var_12m_pct": -5.9
+          },
+          {
+            "mes": "2025-09",
+            "indice": 101.1,
+            "var_aa_pct": -2,
+            "var_12m_pct": -5.7
+          },
+          {
+            "mes": "2025-10",
+            "indice": 103.1,
+            "var_aa_pct": -4.1,
+            "var_12m_pct": -6.2
+          },
+          {
+            "mes": "2025-11",
+            "indice": 97.7,
+            "var_aa_pct": 1.9,
+            "var_12m_pct": -5.3
+          },
+          {
+            "mes": "2025-12",
+            "indice": 86,
+            "var_aa_pct": 2.4,
+            "var_12m_pct": -4.9
+          },
+          {
+            "mes": "2026-01",
+            "indice": 95.7,
+            "var_aa_pct": -2.2,
+            "var_12m_pct": -4.5
+          },
+          {
+            "mes": "2026-02",
+            "indice": 95.4,
+            "var_aa_pct": -4.8,
+            "var_12m_pct": -4.7
+          },
+          {
+            "mes": "2026-03",
+            "indice": 108.7,
+            "var_aa_pct": 3.5,
+            "var_12m_pct": -4
+          },
+          {
+            "mes": "2026-04",
+            "indice": 100,
+            "var_aa_pct": 2.5,
+            "var_12m_pct": -3
+          },
+          {
+            "mes": "2026-05",
+            "indice": 102.6,
+            "var_aa_pct": -2,
+            "var_12m_pct": -2.7
+          },
+          {
+            "mes": "2026-06",
+            "indice": 100,
+            "var_aa_pct": -1.7,
+            "var_12m_pct": -2.2
+          },
+          {
+            "mes": "2026-07",
+            "indice": 108.2,
+            "var_aa_pct": 4.6,
+            "var_12m_pct": -1
+          },
+          {
+            "mes": "2026-08",
+            "indice": 108.7,
+            "var_aa_pct": 7.7,
+            "var_12m_pct": 0.4
+          },
+          {
+            "mes": "2026-09",
+            "indice": 108.2,
+            "var_aa_pct": 7,
+            "var_12m_pct": 1.2
+          }
+        ]
+      },
+      {
+        "id": "pim_defensivos",
+        "nome": "Produção — defensivos agrícolas e domissanitários (20.5)",
+        "ultimo_mes": "2026-09",
+        "var_aa_pct": -6,
+        "var_12m_pct": -5.8,
+        "serie": [
+          {
+            "mes": "2024-10",
+            "indice": 128.5,
+            "var_aa_pct": 29.7,
+            "var_12m_pct": 2.9
+          },
+          {
+            "mes": "2024-11",
+            "indice": 126.6,
+            "var_aa_pct": 13.4,
+            "var_12m_pct": 5.2
+          },
+          {
+            "mes": "2024-12",
+            "indice": 94.3,
+            "var_aa_pct": 70.9,
+            "var_12m_pct": 12.5
+          },
+          {
+            "mes": "2025-01",
+            "indice": 74.2,
+            "var_aa_pct": 7,
+            "var_12m_pct": 13.1
+          },
+          {
+            "mes": "2025-02",
+            "indice": 77,
+            "var_aa_pct": 38,
+            "var_12m_pct": 16.7
+          },
+          {
+            "mes": "2025-03",
+            "indice": 84.8,
+            "var_aa_pct": 97.7,
+            "var_12m_pct": 23.4
+          },
+          {
+            "mes": "2025-04",
+            "indice": 70,
+            "var_aa_pct": 23.9,
+            "var_12m_pct": 23.4
+          },
+          {
+            "mes": "2025-05",
+            "indice": 67.6,
+            "var_aa_pct": 21.2,
+            "var_12m_pct": 26.3
+          },
+          {
+            "mes": "2025-06",
+            "indice": 100,
+            "var_aa_pct": 46.9,
+            "var_12m_pct": 29.1
+          },
+          {
+            "mes": "2025-07",
+            "indice": 118,
+            "var_aa_pct": 30,
+            "var_12m_pct": 29.9
+          },
+          {
+            "mes": "2025-08",
+            "indice": 120.8,
+            "var_aa_pct": 12.7,
+            "var_12m_pct": 28.9
+          },
+          {
+            "mes": "2025-09",
+            "indice": 128.1,
+            "var_aa_pct": 13.4,
+            "var_12m_pct": 28.6
+          },
+          {
+            "mes": "2025-10",
+            "indice": 136.5,
+            "var_aa_pct": 6.2,
+            "var_12m_pct": 25.5
+          },
+          {
+            "mes": "2025-11",
+            "indice": 109.5,
+            "var_aa_pct": -13.6,
+            "var_12m_pct": 21.8
+          },
+          {
+            "mes": "2025-12",
+            "indice": 62.1,
+            "var_aa_pct": -34.2,
+            "var_12m_pct": 13.8
+          },
+          {
+            "mes": "2026-01",
+            "indice": 83.4,
+            "var_aa_pct": 12.4,
+            "var_12m_pct": 14.2
+          },
+          {
+            "mes": "2026-02",
+            "indice": 70.4,
+            "var_aa_pct": -8.5,
+            "var_12m_pct": 11.2
+          },
+          {
+            "mes": "2026-03",
+            "indice": 75.1,
+            "var_aa_pct": -11.5,
+            "var_12m_pct": 6
+          },
+          {
+            "mes": "2026-04",
+            "indice": 59.2,
+            "var_aa_pct": -15.5,
+            "var_12m_pct": 3.7
+          },
+          {
+            "mes": "2026-05",
+            "indice": 82.6,
+            "var_aa_pct": 22.3,
+            "var_12m_pct": 4
+          },
+          {
+            "mes": "2026-06",
+            "indice": 100.7,
+            "var_aa_pct": 0.8,
+            "var_12m_pct": 1.1
+          },
+          {
+            "mes": "2026-07",
+            "indice": 107,
+            "var_aa_pct": -9.4,
+            "var_12m_pct": -2.2
+          },
+          {
+            "mes": "2026-08",
+            "indice": 113.7,
+            "var_aa_pct": -5.9,
+            "var_12m_pct": -4
+          },
+          {
+            "mes": "2026-09",
+            "indice": 120.5,
+            "var_aa_pct": -6,
+            "var_12m_pct": -5.8
+          }
+        ]
+      },
+      {
+        "id": "pim_alimentos",
+        "nome": "Produção — produtos alimentícios (10)",
+        "ultimo_mes": "2026-09",
+        "var_aa_pct": -5.9,
+        "var_12m_pct": 0.7,
+        "serie": [
+          {
+            "mes": "2024-10",
+            "indice": 114.5,
+            "var_aa_pct": 2.3,
+            "var_12m_pct": 2.7
+          },
+          {
+            "mes": "2024-11",
+            "indice": 102.1,
+            "var_aa_pct": -4.5,
+            "var_12m_pct": 1.9
+          },
+          {
+            "mes": "2024-12",
+            "indice": 93.2,
+            "var_aa_pct": -3.8,
+            "var_12m_pct": 1.5
+          },
+          {
+            "mes": "2025-01",
+            "indice": 96.2,
+            "var_aa_pct": -0.1,
+            "var_12m_pct": 1.2
+          },
+          {
+            "mes": "2025-02",
+            "indice": 91.5,
+            "var_aa_pct": -0.3,
+            "var_12m_pct": 0.6
+          },
+          {
+            "mes": "2025-03",
+            "indice": 96.1,
+            "var_aa_pct": 1.6,
+            "var_12m_pct": 0.8
+          },
+          {
+            "mes": "2025-04",
+            "indice": 96.6,
+            "var_aa_pct": -5.9,
+            "var_12m_pct": -0.7
+          },
+          {
+            "mes": "2025-05",
+            "indice": 111.6,
+            "var_aa_pct": 1.8,
+            "var_12m_pct": -0.7
+          },
+          {
+            "mes": "2025-06",
+            "indice": 106.5,
+            "var_aa_pct": -3.5,
+            "var_12m_pct": -1.2
+          },
+          {
+            "mes": "2025-07",
+            "indice": 119.4,
+            "var_aa_pct": 1.6,
+            "var_12m_pct": -1.2
+          },
+          {
+            "mes": "2025-08",
+            "indice": 118.9,
+            "var_aa_pct": 0.3,
+            "var_12m_pct": -0.9
+          },
+          {
+            "mes": "2025-09",
+            "indice": 120.6,
+            "var_aa_pct": 7.1,
+            "var_12m_pct": -0.2
+          },
+          {
+            "mes": "2025-10",
+            "indice": 120.4,
+            "var_aa_pct": 5.1,
+            "var_12m_pct": 0.1
+          },
+          {
+            "mes": "2025-11",
+            "indice": 105.7,
+            "var_aa_pct": 3.5,
+            "var_12m_pct": 0.7
+          },
+          {
+            "mes": "2025-12",
+            "indice": 98.3,
+            "var_aa_pct": 5.5,
+            "var_12m_pct": 1.4
+          },
+          {
+            "mes": "2026-01",
+            "indice": 98.4,
+            "var_aa_pct": 2.3,
+            "var_12m_pct": 1.6
+          },
+          {
+            "mes": "2026-02",
+            "indice": 91.2,
+            "var_aa_pct": -0.4,
+            "var_12m_pct": 1.6
+          },
+          {
+            "mes": "2026-03",
+            "indice": 101.6,
+            "var_aa_pct": 5.7,
+            "var_12m_pct": 1.9
+          },
+          {
+            "mes": "2026-04",
+            "indice": 100,
+            "var_aa_pct": 3.5,
+            "var_12m_pct": 2.7
+          },
+          {
+            "mes": "2026-05",
+            "indice": 107.3,
+            "var_aa_pct": -3.8,
+            "var_12m_pct": 2.2
+          },
+          {
+            "mes": "2026-06",
+            "indice": 106.1,
+            "var_aa_pct": -0.4,
+            "var_12m_pct": 2.4
+          },
+          {
+            "mes": "2026-07",
+            "indice": 116.2,
+            "var_aa_pct": -2.7,
+            "var_12m_pct": 2
+          },
+          {
+            "mes": "2026-08",
+            "indice": 117.8,
+            "var_aa_pct": -0.9,
+            "var_12m_pct": 1.9
+          },
+          {
+            "mes": "2026-09",
+            "indice": 113.5,
+            "var_aa_pct": -5.9,
+            "var_12m_pct": 0.7
+          }
+        ]
+      },
+      {
+        "id": "varejo_supermercados",
+        "nome": "Vendas no varejo — hiper e supermercados (volume)",
+        "ultimo_mes": "2026-08",
+        "var_aa_pct": 0.6,
+        "var_12m_pct": 1.1,
+        "serie": [
+          {
+            "mes": "2024-09",
+            "indice": 106.7,
+            "var_aa_pct": 1.3,
+            "var_12m_pct": 5.4
+          },
+          {
+            "mes": "2024-10",
+            "indice": 111.3,
+            "var_aa_pct": 6.2,
+            "var_12m_pct": 5.7
+          },
+          {
+            "mes": "2024-11",
+            "indice": 114.5,
+            "var_aa_pct": 6.2,
+            "var_12m_pct": 5.8
+          },
+          {
+            "mes": "2024-12",
+            "indice": 128.8,
+            "var_aa_pct": -0.3,
+            "var_12m_pct": 5.2
+          },
+          {
+            "mes": "2025-01",
+            "indice": 106.5,
+            "var_aa_pct": 3.4,
+            "var_12m_pct": 5
+          },
+          {
+            "mes": "2025-02",
+            "indice": 102.4,
+            "var_aa_pct": 0.1,
+            "var_12m_pct": 4.2
+          },
+          {
+            "mes": "2025-03",
+            "indice": 110,
+            "var_aa_pct": -1.2,
+            "var_12m_pct": 3.3
+          },
+          {
+            "mes": "2025-04",
+            "indice": 111.1,
+            "var_aa_pct": 8.1,
+            "var_12m_pct": 4.1
+          },
+          {
+            "mes": "2025-05",
+            "indice": 110.5,
+            "var_aa_pct": 0.9,
+            "var_12m_pct": 3.2
+          },
+          {
+            "mes": "2025-06",
+            "indice": 103.9,
+            "var_aa_pct": 0.4,
+            "var_12m_pct": 2.9
+          },
+          {
+            "mes": "2025-07",
+            "indice": 108.2,
+            "var_aa_pct": 0.8,
+            "var_12m_pct": 2.7
+          },
+          {
+            "mes": "2025-08",
+            "indice": 112.2,
+            "var_aa_pct": -0.2,
+            "var_12m_pct": 2
+          },
+          {
+            "mes": "2025-09",
+            "indice": 106.2,
+            "var_aa_pct": -0.5,
+            "var_12m_pct": 1.9
+          },
+          {
+            "mes": "2025-10",
+            "indice": 111.8,
+            "var_aa_pct": 0.4,
+            "var_12m_pct": 1.4
+          },
+          {
+            "mes": "2025-11",
+            "indice": 114.7,
+            "var_aa_pct": 0.2,
+            "var_12m_pct": 0.9
+          },
+          {
+            "mes": "2025-12",
+            "indice": 130.4,
+            "var_aa_pct": 1.3,
+            "var_12m_pct": 1.1
+          },
+          {
+            "mes": "2026-01",
+            "indice": 109.3,
+            "var_aa_pct": 2.7,
+            "var_12m_pct": 1
+          },
+          {
+            "mes": "2026-02",
+            "indice": 104.4,
+            "var_aa_pct": 2,
+            "var_12m_pct": 1.2
+          },
+          {
+            "mes": "2026-03",
+            "indice": 111,
+            "var_aa_pct": 0.9,
+            "var_12m_pct": 1.4
+          },
+          {
+            "mes": "2026-04",
+            "indice": 112.1,
+            "var_aa_pct": 0.8,
+            "var_12m_pct": 0.8
+          },
+          {
+            "mes": "2026-05",
+            "indice": 110.2,
+            "var_aa_pct": -0.4,
+            "var_12m_pct": 0.7
+          },
+          {
+            "mes": "2026-06",
+            "indice": 106.1,
+            "var_aa_pct": 2.1,
+            "var_12m_pct": 0.8
+          },
+          {
+            "mes": "2026-07",
+            "indice": 111.4,
+            "var_aa_pct": 2.9,
+            "var_12m_pct": 1
+          },
+          {
+            "mes": "2026-08",
+            "indice": 112.9,
+            "var_aa_pct": 0.6,
+            "var_12m_pct": 1.1
+          }
+        ]
+      },
+      {
+        "id": "varejo_farma_cosmeticos",
+        "nome": "Vendas no varejo — farmácia, perfumaria e cosméticos (volume)",
+        "ultimo_mes": "2026-08",
+        "var_aa_pct": 4.8,
+        "var_12m_pct": 5.3,
+        "serie": [
+          {
+            "mes": "2024-09",
+            "indice": 112.7,
+            "var_aa_pct": 8.9,
+            "var_12m_pct": 7.8
+          },
+          {
+            "mes": "2024-10",
+            "indice": 114.8,
+            "var_aa_pct": 8.8,
+            "var_12m_pct": 7.8
+          },
+          {
+            "mes": "2024-11",
+            "indice": 117.3,
+            "var_aa_pct": 5.3,
+            "var_12m_pct": 7.6
+          },
+          {
+            "mes": "2024-12",
+            "indice": 120.5,
+            "var_aa_pct": 2.5,
+            "var_12m_pct": 7.4
+          },
+          {
+            "mes": "2025-01",
+            "indice": 107.8,
+            "var_aa_pct": 5.7,
+            "var_12m_pct": 7.3
+          },
+          {
+            "mes": "2025-02",
+            "indice": 104.1,
+            "var_aa_pct": 3.4,
+            "var_12m_pct": 6.7
+          },
+          {
+            "mes": "2025-03",
+            "indice": 115.6,
+            "var_aa_pct": 2.2,
+            "var_12m_pct": 6.5
+          },
+          {
+            "mes": "2025-04",
+            "indice": 109.9,
+            "var_aa_pct": 2.1,
+            "var_12m_pct": 5.8
+          },
+          {
+            "mes": "2025-05",
+            "indice": 123.4,
+            "var_aa_pct": 5.6,
+            "var_12m_pct": 5.7
+          },
+          {
+            "mes": "2025-06",
+            "indice": 115.2,
+            "var_aa_pct": 2.2,
+            "var_12m_pct": 5.2
+          },
+          {
+            "mes": "2025-07",
+            "indice": 119.2,
+            "var_aa_pct": 4.2,
+            "var_12m_pct": 4.9
+          },
+          {
+            "mes": "2025-08",
+            "indice": 118.5,
+            "var_aa_pct": 2.7,
+            "var_12m_pct": 4.4
+          },
+          {
+            "mes": "2025-09",
+            "indice": 118.5,
+            "var_aa_pct": 5.1,
+            "var_12m_pct": 4.1
+          },
+          {
+            "mes": "2025-10",
+            "indice": 122.1,
+            "var_aa_pct": 6.4,
+            "var_12m_pct": 4
+          },
+          {
+            "mes": "2025-11",
+            "indice": 126,
+            "var_aa_pct": 7.5,
+            "var_12m_pct": 4.2
+          },
+          {
+            "mes": "2025-12",
+            "indice": 128.8,
+            "var_aa_pct": 6.9,
+            "var_12m_pct": 4.5
+          },
+          {
+            "mes": "2026-01",
+            "indice": 113.3,
+            "var_aa_pct": 5.1,
+            "var_12m_pct": 4.5
+          },
+          {
+            "mes": "2026-02",
+            "indice": 106.2,
+            "var_aa_pct": 2.1,
+            "var_12m_pct": 4.4
+          },
+          {
+            "mes": "2026-03",
+            "indice": 123.9,
+            "var_aa_pct": 7.2,
+            "var_12m_pct": 4.8
+          },
+          {
+            "mes": "2026-04",
+            "indice": 114.9,
+            "var_aa_pct": 4.5,
+            "var_12m_pct": 5
+          },
+          {
+            "mes": "2026-05",
+            "indice": 126.4,
+            "var_aa_pct": 2.5,
+            "var_12m_pct": 4.7
+          },
+          {
+            "mes": "2026-06",
+            "indice": 122.3,
+            "var_aa_pct": 6.1,
+            "var_12m_pct": 5
+          },
+          {
+            "mes": "2026-07",
+            "indice": 124.9,
+            "var_aa_pct": 4.8,
+            "var_12m_pct": 5.1
+          },
+          {
+            "mes": "2026-08",
+            "indice": 124.1,
+            "var_aa_pct": 4.8,
+            "var_12m_pct": 5.3
+          }
+        ]
+      },
+      {
+        "id": "varejo_combustiveis_lubrificantes",
+        "nome": "Vendas no varejo — combustíveis e lubrificantes (volume)",
+        "ultimo_mes": "2026-08",
+        "var_aa_pct": 0.8,
+        "var_12m_pct": 1.2,
+        "serie": [
+          {
+            "mes": "2024-09",
+            "indice": 103.2,
+            "var_aa_pct": -1.5,
+            "var_12m_pct": -2.8
+          },
+          {
+            "mes": "2024-10",
+            "indice": 108.1,
+            "var_aa_pct": 2,
+            "var_12m_pct": -1.8
+          },
+          {
+            "mes": "2024-11",
+            "indice": 105.8,
+            "var_aa_pct": 3,
+            "var_12m_pct": -1.4
+          },
+          {
+            "mes": "2024-12",
+            "indice": 105.3,
+            "var_aa_pct": -1.7,
+            "var_12m_pct": -1.5
+          },
+          {
+            "mes": "2025-01",
+            "indice": 102.2,
+            "var_aa_pct": 1.3,
+            "var_12m_pct": -1.5
+          },
+          {
+            "mes": "2025-02",
+            "indice": 96.6,
+            "var_aa_pct": 2.2,
+            "var_12m_pct": -1.3
+          },
+          {
+            "mes": "2025-03",
+            "indice": 102,
+            "var_aa_pct": 1.1,
+            "var_12m_pct": -0.8
+          },
+          {
+            "mes": "2025-04",
+            "indice": 98.9,
+            "var_aa_pct": -1.4,
+            "var_12m_pct": -1.1
+          },
+          {
+            "mes": "2025-05",
+            "indice": 101.7,
+            "var_aa_pct": 0,
+            "var_12m_pct": -0.7
+          },
+          {
+            "mes": "2025-06",
+            "indice": 98,
+            "var_aa_pct": -1.1,
+            "var_12m_pct": -0.5
+          },
+          {
+            "mes": "2025-07",
+            "indice": 106,
+            "var_aa_pct": 3.2,
+            "var_12m_pct": 0.2
+          },
+          {
+            "mes": "2025-08",
+            "indice": 105.6,
+            "var_aa_pct": 0.4,
+            "var_12m_pct": 0.6
+          },
+          {
+            "mes": "2025-09",
+            "indice": 102.5,
+            "var_aa_pct": -0.6,
+            "var_12m_pct": 0.7
+          },
+          {
+            "mes": "2025-10",
+            "indice": 108.4,
+            "var_aa_pct": 0.2,
+            "var_12m_pct": 0.5
+          },
+          {
+            "mes": "2025-11",
+            "indice": 104.5,
+            "var_aa_pct": -1.2,
+            "var_12m_pct": 0.2
+          },
+          {
+            "mes": "2025-12",
+            "indice": 108.4,
+            "var_aa_pct": 3,
+            "var_12m_pct": 0.6
+          },
+          {
+            "mes": "2026-01",
+            "indice": 102.1,
+            "var_aa_pct": -0.2,
+            "var_12m_pct": 0.5
+          },
+          {
+            "mes": "2026-02",
+            "indice": 96.4,
+            "var_aa_pct": -0.2,
+            "var_12m_pct": 0.3
+          },
+          {
+            "mes": "2026-03",
+            "indice": 109.9,
+            "var_aa_pct": 7.8,
+            "var_12m_pct": 0.8
+          },
+          {
+            "mes": "2026-04",
+            "indice": 100.6,
+            "var_aa_pct": 1.7,
+            "var_12m_pct": 1.1
+          },
+          {
+            "mes": "2026-05",
+            "indice": 103.7,
+            "var_aa_pct": 2,
+            "var_12m_pct": 1.2
+          },
+          {
+            "mes": "2026-06",
+            "indice": 99.3,
+            "var_aa_pct": 1.3,
+            "var_12m_pct": 1.4
+          },
+          {
+            "mes": "2026-07",
+            "indice": 105.4,
+            "var_aa_pct": -0.6,
+            "var_12m_pct": 1.1
+          },
+          {
+            "mes": "2026-08",
+            "indice": 106.5,
+            "var_aa_pct": 0.8,
+            "var_12m_pct": 1.2
+          }
+        ]
+      }
+    ],
+    "importados_acabados": null,
+    "empresas": [
+      {
+        "empresa": "NATURA COSMÉTICOS S.A.",
+        "trimestre": "2026-T2",
+        "receita_liquida_R$_mi": 5170,
+        "receita_var_aa_pct": -7.7,
+        "margem_bruta_pct": 65.7,
+        "margem_bruta_ano_anterior_pct": 66.7,
+        "resultado_operacional_R$_mi": 398,
+        "lucro_liquido_R$_mi": 35,
+        "historico_trimestral": [
+          {
+            "trimestre": "2024-T3",
+            "receita_R$_mi": 5440,
+            "margem_bruta_pct": 68.7
+          },
+          {
+            "trimestre": "2025-T1",
+            "receita_R$_mi": 4835,
+            "margem_bruta_pct": 68.5
+          },
+          {
+            "trimestre": "2025-T2",
+            "receita_R$_mi": 5599,
+            "margem_bruta_pct": 66.7
+          },
+          {
+            "trimestre": "2025-T3",
+            "receita_R$_mi": 5194,
+            "margem_bruta_pct": 67.2
+          },
+          {
+            "trimestre": "2026-T1",
+            "receita_R$_mi": 4745,
+            "margem_bruta_pct": 65.8
+          },
+          {
+            "trimestre": "2026-T2",
+            "receita_R$_mi": 5170,
+            "margem_bruta_pct": 65.7
+          }
+        ],
+        "cotacao": {
+          "ticker": "NATU3.SA",
+          "preco": 5.45,
+          "moeda": "BRL",
+          "var_12m_pct": -26.8
+        },
+        "papel": "Brand owner de higiene e cosméticos (cliente final típico)"
+      },
+      {
+        "empresa": "M.DIAS BRANCO S.A. IND COM DE ALIMENTOS",
+        "trimestre": "2026-T2",
+        "receita_liquida_R$_mi": 2699,
+        "receita_var_aa_pct": -0.9,
+        "margem_bruta_pct": 34.2,
+        "margem_bruta_ano_anterior_pct": 33.4,
+        "resultado_operacional_R$_mi": 182,
+        "lucro_liquido_R$_mi": 169,
+        "historico_trimestral": [
+          {
+            "trimestre": "2024-T3",
+            "receita_R$_mi": 2404,
+            "margem_bruta_pct": 32.9
+          },
+          {
+            "trimestre": "2025-T1",
+            "receita_R$_mi": 2209,
+            "margem_bruta_pct": 30.9
+          },
+          {
+            "trimestre": "2025-T2",
+            "receita_R$_mi": 2723,
+            "margem_bruta_pct": 33.4
+          },
+          {
+            "trimestre": "2025-T3",
+            "receita_R$_mi": 2784,
+            "margem_bruta_pct": 32.4
+          },
+          {
+            "trimestre": "2026-T1",
+            "receita_R$_mi": 2217,
+            "margem_bruta_pct": 32.4
+          },
+          {
+            "trimestre": "2026-T2",
+            "receita_R$_mi": 2699,
+            "margem_bruta_pct": 34.2
+          }
+        ],
+        "cotacao": {
+          "ticker": "MDIA3.SA",
+          "preco": 16.61,
+          "moeda": "BRL",
+          "var_12m_pct": -30.7
+        },
+        "papel": "Brand owner de alimentos"
+      },
+      {
+        "empresa": "VITTIA S.A.",
+        "trimestre": "2026-T2",
+        "receita_liquida_R$_mi": 114,
+        "receita_var_aa_pct": 15.1,
+        "margem_bruta_pct": 15.5,
+        "margem_bruta_ano_anterior_pct": 14.3,
+        "resultado_operacional_R$_mi": -26,
+        "lucro_liquido_R$_mi": -18,
+        "historico_trimestral": [
+          {
+            "trimestre": "2024-T3",
+            "receita_R$_mi": 309,
+            "margem_bruta_pct": 35.6
+          },
+          {
+            "trimestre": "2025-T1",
+            "receita_R$_mi": 138,
+            "margem_bruta_pct": 30.5
+          },
+          {
+            "trimestre": "2025-T2",
+            "receita_R$_mi": 99,
+            "margem_bruta_pct": 14.3
+          },
+          {
+            "trimestre": "2025-T3",
+            "receita_R$_mi": 325,
+            "margem_bruta_pct": 32.2
+          },
+          {
+            "trimestre": "2026-T1",
+            "receita_R$_mi": 122,
+            "margem_bruta_pct": 28.9
+          },
+          {
+            "trimestre": "2026-T2",
+            "receita_R$_mi": 114,
+            "margem_bruta_pct": 15.5
+          }
+        ],
+        "cotacao": {
+          "ticker": "VITT3.SA",
+          "preco": 2.67,
+          "moeda": "BRL",
+          "var_12m_pct": -36.2
+        },
+        "papel": "Insumos agrícolas (demanda de embalagens agro)"
+      }
+    ],
+    "perfil": {
+      "perfil_conhecido": [
+        {
+          "item": "Sede",
+          "valor": "Vinhedo-SP (Distrito Industrial); operação em 7 estados",
+          "fonte": "Site da empresa; LinkedIn"
+        },
+        {
+          "item": "Porte",
+          "valor": "~1 bilhão de embalagens/ano, ~70 mil m² construídos, ~1.100 funcionários",
+          "fonte": "Site da empresa (autodeclarado)"
+        },
+        {
+          "item": "Processos",
+          "valor": "Extrusão-sopro (EBM), injeção-sopro (IBM), sopro de PET (ISBM), reciclagem bottle-to-bottle, decoração",
+          "fonte": "Site da empresa"
+        },
+        {
+          "item": "Produtos",
+          "valor": "Frascos (PP, PET, PE), bombonas, potes, preformas e resinas recicladas",
+          "fonte": "Site da empresa; ABRE"
+        },
+        {
+          "item": "Segmentos",
+          "valor": "Alimentos e bebidas, higiene e cosméticos, limpeza, farmacêutico, óleos e lubrificantes, agroquímicos",
+          "fonte": "Site da empresa (segmentos)"
+        },
+        {
+          "item": "Histórico",
+          "valor": "Ligada ao Grupo Itavema; concentrou operações de sopro em Vinhedo (2008)",
+          "fonte": "Jornal do Brasil (out/2008)"
+        }
+      ],
+      "noticias": []
+    },
+    "macro_mensal": [
+      {
+        "id": "brent",
+        "nome": "Brent",
+        "unidade": "US$/bbl",
+        "fonte": "FRED (ou Yahoo Finance), média mensal",
+        "series": [
+          {
+            "nome": "Brent",
+            "serie": [
+              {
+                "mes": "2025-12",
+                "valor": 62.54
+              },
+              {
+                "mes": "2026-01",
+                "valor": 66.6
+              },
+              {
+                "mes": "2026-02",
+                "valor": 70.89
+              },
+              {
+                "mes": "2026-03",
+                "valor": 103.13
+              },
+              {
+                "mes": "2026-04",
+                "valor": 117.29
+              },
+              {
+                "mes": "2026-05",
+                "valor": 107.14
+              },
+              {
+                "mes": "2026-06",
+                "valor": 85.4
+              },
+              {
+                "mes": "2026-07",
+                "valor": 83.76
+              },
+              {
+                "mes": "2026-08",
+                "valor": 91.08
+              },
+              {
+                "mes": "2026-09",
+                "valor": 114.16
+              },
+              {
+                "mes": "2026-10",
+                "valor": 123.93
+              },
+              {
+                "mes": "2026-11",
+                "valor": 107.21,
+                "parcial": true,
+                "ate": "2026-11-03"
+              }
+            ],
+            "n": {
+              "mes": "2026-11",
+              "valor": 107.21,
+              "parcial": true,
+              "ate": "2026-11-03"
+            },
+            "n_1": {
+              "mes": "2026-10",
+              "valor": 123.93
+            },
+            "var_abs": -16.72,
+            "var_pct": -13.5
+          }
+        ],
+        "ultimo_dia": {
+          "data": "2026-11-03",
+          "valor": 107.03
+        },
+        "serie_diaria": [
+          {
+            "data": "2025-11-05",
+            "valor": 63.54
+          },
+          {
+            "data": "2025-11-06",
+            "valor": 63.41
+          },
+          {
+            "data": "2025-11-07",
+            "valor": 63.72
+          },
+          {
+            "data": "2025-11-10",
+            "valor": 63.01
+          },
+          {
+            "data": "2025-11-11",
+            "valor": 63.86
+          },
+          {
+            "data": "2025-11-12",
+            "valor": 61.88
+          },
+          {
+            "data": "2025-11-13",
+            "valor": 62.14
+          },
+          {
+            "data": "2025-11-14",
+            "valor": 63.45
+          },
+          {
+            "data": "2025-11-17",
+            "valor": 63.16
+          },
+          {
+            "data": "2025-11-18",
+            "valor": 64.86
+          },
+          {
+            "data": "2025-11-19",
+            "valor": 63.78
+          },
+          {
+            "data": "2025-11-20",
+            "valor": 63.64
+          },
+          {
+            "data": "2025-11-21",
+            "valor": 62.78
+          },
+          {
+            "data": "2025-11-24",
+            "valor": 64.83
+          },
+          {
+            "data": "2025-11-25",
+            "valor": 63.99
+          },
+          {
+            "data": "2025-11-26",
+            "valor": 64.81
+          },
+          {
+            "data": "2025-11-27",
+            "valor": 64.18
+          },
+          {
+            "data": "2025-11-28",
+            "valor": 64.07
+          },
+          {
+            "data": "2025-12-01",
+            "valor": 64.22
+          },
+          {
+            "data": "2025-12-02",
+            "valor": 63.37
+          },
+          {
+            "data": "2025-12-03",
+            "valor": 63.75
+          },
+          {
+            "data": "2025-12-04",
+            "valor": 64.15
+          },
+          {
+            "data": "2025-12-05",
+            "valor": 64.42
+          },
+          {
+            "data": "2025-12-08",
+            "valor": 63.3
+          },
+          {
+            "data": "2025-12-09",
+            "valor": 62.62
+          },
+          {
+            "data": "2025-12-10",
+            "valor": 63.12
+          },
+          {
+            "data": "2025-12-11",
+            "valor": 61.87
+          },
+          {
+            "data": "2025-12-12",
+            "valor": 62.11
+          },
+          {
+            "data": "2025-12-15",
+            "valor": 61.55
+          },
+          {
+            "data": "2025-12-16",
+            "valor": 59.93
+          },
+          {
+            "data": "2025-12-17",
+            "valor": 60.61
+          },
+          {
+            "data": "2025-12-18",
+            "valor": 60.69
+          },
+          {
+            "data": "2025-12-19",
+            "valor": 61.35
+          },
+          {
+            "data": "2025-12-22",
+            "valor": 62.22
+          },
+          {
+            "data": "2025-12-23",
+            "valor": 63.7
+          },
+          {
+            "data": "2025-12-24",
+            "valor": 63.7
+          },
+          {
+            "data": "2025-12-29",
+            "valor": 63.1
+          },
+          {
+            "data": "2025-12-30",
+            "valor": 62.3
+          },
+          {
+            "data": "2025-12-31",
+            "valor": 61.35
+          },
+          {
+            "data": "2026-01-02",
+            "valor": 61.98
+          },
+          {
+            "data": "2026-01-05",
+            "valor": 63
+          },
+          {
+            "data": "2026-01-06",
+            "valor": 62.1
+          },
+          {
+            "data": "2026-01-07",
+            "valor": 61.08
+          },
+          {
+            "data": "2026-01-08",
+            "valor": 63.34
+          },
+          {
+            "data": "2026-01-09",
+            "valor": 65.11
+          },
+          {
+            "data": "2026-01-12",
+            "valor": 65.4
+          },
+          {
+            "data": "2026-01-13",
+            "valor": 67.58
+          },
+          {
+            "data": "2026-01-14",
+            "valor": 68.87
+          },
+          {
+            "data": "2026-01-15",
+            "valor": 66.16
+          },
+          {
+            "data": "2026-01-16",
+            "valor": 66.97
+          },
+          {
+            "data": "2026-01-19",
+            "valor": 66.91
+          },
+          {
+            "data": "2026-01-20",
+            "valor": 67.68
+          },
+          {
+            "data": "2026-01-21",
+            "valor": 66.72
+          },
+          {
+            "data": "2026-01-22",
+            "valor": 65.46
+          },
+          {
+            "data": "2026-01-23",
+            "valor": 68.16
+          },
+          {
+            "data": "2026-01-26",
+            "valor": 67.7
+          },
+          {
+            "data": "2026-01-27",
+            "valor": 70.28
+          },
+          {
+            "data": "2026-01-28",
+            "valor": 70.9
+          },
+          {
+            "data": "2026-01-29",
+            "valor": 71
+          },
+          {
+            "data": "2026-01-30",
+            "valor": 72.25
+          },
+          {
+            "data": "2026-02-02",
+            "valor": 67.72
+          },
+          {
+            "data": "2026-02-03",
+            "valor": 70.01
+          },
+          {
+            "data": "2026-02-04",
+            "valor": 71.15
+          },
+          {
+            "data": "2026-02-05",
+            "valor": 69.87
+          },
+          {
+            "data": "2026-02-06",
+            "valor": 70.45
+          },
+          {
+            "data": "2026-02-09",
+            "valor": 71.19
+          },
+          {
+            "data": "2026-02-10",
+            "valor": 71.01
+          },
+          {
+            "data": "2026-02-11",
+            "valor": 71.52
+          },
+          {
+            "data": "2026-02-12",
+            "valor": 69.8
+          },
+          {
+            "data": "2026-02-13",
+            "valor": 69.96
+          },
+          {
+            "data": "2026-02-16",
+            "valor": 70.81
+          },
+          {
+            "data": "2026-02-17",
+            "valor": 69.77
+          },
+          {
+            "data": "2026-02-18",
+            "valor": 71.78
+          },
+          {
+            "data": "2026-02-19",
+            "valor": 73.17
+          },
+          {
+            "data": "2026-02-20",
+            "valor": 72.75
+          },
+          {
+            "data": "2026-02-23",
+            "valor": 71.9
+          },
+          {
+            "data": "2026-02-24",
+            "valor": 71.21
+          },
+          {
+            "data": "2026-02-25",
+            "valor": 70.69
+          },
+          {
+            "data": "2026-02-26",
+            "valor": 71.66
+          },
+          {
+            "data": "2026-02-27",
+            "valor": 71.32
+          },
+          {
+            "data": "2026-03-02",
+            "valor": 77.24
+          },
+          {
+            "data": "2026-03-03",
+            "valor": 83.28
+          },
+          {
+            "data": "2026-03-04",
+            "valor": 81.56
+          },
+          {
+            "data": "2026-03-05",
+            "valor": 88.59
+          },
+          {
+            "data": "2026-03-06",
+            "valor": 95.74
+          },
+          {
+            "data": "2026-03-09",
+            "valor": 94.35
+          },
+          {
+            "data": "2026-03-10",
+            "valor": 89.84
+          },
+          {
+            "data": "2026-03-11",
+            "valor": 90.98
+          },
+          {
+            "data": "2026-03-12",
+            "valor": 102.38
+          },
+          {
+            "data": "2026-03-13",
+            "valor": 103.23
+          },
+          {
+            "data": "2026-03-16",
+            "valor": 101.04
+          },
+          {
+            "data": "2026-03-17",
+            "valor": 108.39
+          },
+          {
+            "data": "2026-03-18",
+            "valor": 118.09
+          },
+          {
+            "data": "2026-03-19",
+            "valor": 111.05
+          },
+          {
+            "data": "2026-03-20",
+            "valor": 118.42
+          },
+          {
+            "data": "2026-03-23",
+            "valor": 103.79
+          },
+          {
+            "data": "2026-03-24",
+            "valor": 108.42
+          },
+          {
+            "data": "2026-03-25",
+            "valor": 109.14
+          },
+          {
+            "data": "2026-03-26",
+            "valor": 113.39
+          },
+          {
+            "data": "2026-03-27",
+            "valor": 121.47
+          },
+          {
+            "data": "2026-03-30",
+            "valor": 121.88
+          },
+          {
+            "data": "2026-03-31",
+            "valor": 126.69
+          },
+          {
+            "data": "2026-04-01",
+            "valor": 119.56
+          },
+          {
+            "data": "2026-04-02",
+            "valor": 127.61
+          },
+          {
+            "data": "2026-04-07",
+            "valor": 138.21
+          },
+          {
+            "data": "2026-04-08",
+            "valor": 122.11
+          },
+          {
+            "data": "2026-04-09",
+            "valor": 119.03
+          },
+          {
+            "data": "2026-04-10",
+            "valor": 119.07
+          },
+          {
+            "data": "2026-04-13",
+            "valor": 123.28
+          },
+          {
+            "data": "2026-04-14",
+            "valor": 118.69
+          },
+          {
+            "data": "2026-04-15",
+            "valor": 114.93
+          },
+          {
+            "data": "2026-04-16",
+            "valor": 116.63
+          },
+          {
+            "data": "2026-04-17",
+            "valor": 98.63
+          },
+          {
+            "data": "2026-04-20",
+            "valor": 103.4
+          },
+          {
+            "data": "2026-04-21",
+            "valor": 106.14
+          },
+          {
+            "data": "2026-04-22",
+            "valor": 113.44
+          },
+          {
+            "data": "2026-04-23",
+            "valor": 113.25
+          },
+          {
+            "data": "2026-04-24",
+            "valor": 111.86
+          },
+          {
+            "data": "2026-04-27",
+            "valor": 113.89
+          },
+          {
+            "data": "2026-04-28",
+            "valor": 117.62
+          },
+          {
+            "data": "2026-04-29",
+            "valor": 124.16
+          },
+          {
+            "data": "2026-04-30",
+            "valor": 124.24
+          },
+          {
+            "data": "2026-05-01",
+            "valor": 118.26
+          },
+          {
+            "data": "2026-05-05",
+            "valor": 114.51
+          },
+          {
+            "data": "2026-05-06",
+            "valor": 103.7
+          },
+          {
+            "data": "2026-05-07",
+            "valor": 101.82
+          },
+          {
+            "data": "2026-05-08",
+            "valor": 103.48
+          },
+          {
+            "data": "2026-05-11",
+            "valor": 106.11
+          },
+          {
+            "data": "2026-05-12",
+            "valor": 111.37
+          },
+          {
+            "data": "2026-05-13",
+            "valor": 110.28
+          },
+          {
+            "data": "2026-05-14",
+            "valor": 110.91
+          },
+          {
+            "data": "2026-05-15",
+            "valor": 113.96
+          },
+          {
+            "data": "2026-05-18",
+            "valor": 116.73
+          },
+          {
+            "data": "2026-05-19",
+            "valor": 114.64
+          },
+          {
+            "data": "2026-05-20",
+            "valor": 108.93
+          },
+          {
+            "data": "2026-05-21",
+            "valor": 105.84
+          },
+          {
+            "data": "2026-05-22",
+            "valor": 106.9
+          },
+          {
+            "data": "2026-05-26",
+            "valor": 102.75
+          },
+          {
+            "data": "2026-05-27",
+            "valor": 97.11
+          },
+          {
+            "data": "2026-05-28",
+            "valor": 95.47
+          },
+          {
+            "data": "2026-05-29",
+            "valor": 92.88
+          },
+          {
+            "data": "2026-06-01",
+            "valor": 98.29
+          },
+          {
+            "data": "2026-06-02",
+            "valor": 98.49
+          },
+          {
+            "data": "2026-06-03",
+            "valor": 101.69
+          },
+          {
+            "data": "2026-06-04",
+            "valor": 98.98
+          },
+          {
+            "data": "2026-06-05",
+            "valor": 97.29
+          },
+          {
+            "data": "2026-06-08",
+            "valor": 97.46
+          },
+          {
+            "data": "2026-06-09",
+            "valor": 94.15
+          },
+          {
+            "data": "2026-06-10",
+            "valor": 95.73
+          },
+          {
+            "data": "2026-06-11",
+            "valor": 92.84
+          },
+          {
+            "data": "2026-06-12",
+            "valor": 88.64
+          },
+          {
+            "data": "2026-06-15",
+            "valor": 84.36
+          },
+          {
+            "data": "2026-06-16",
+            "valor": 80.5
+          },
+          {
+            "data": "2026-06-17",
+            "valor": 80.33
+          },
+          {
+            "data": "2026-06-18",
+            "valor": 79.35
+          },
+          {
+            "data": "2026-06-19",
+            "valor": 80.46
+          },
+          {
+            "data": "2026-06-22",
+            "valor": 76.49
+          },
+          {
+            "data": "2026-06-23",
+            "valor": 75.69
+          },
+          {
+            "data": "2026-06-24",
+            "valor": 72.09
+          },
+          {
+            "data": "2026-06-25",
+            "valor": 73.74
+          },
+          {
+            "data": "2026-06-26",
+            "valor": 70.16
+          },
+          {
+            "data": "2026-06-29",
+            "valor": 71.59
+          },
+          {
+            "data": "2026-06-30",
+            "valor": 70.46
+          },
+          {
+            "data": "2026-07-01",
+            "valor": 69.24
+          },
+          {
+            "data": "2026-07-02",
+            "valor": 68.53
+          },
+          {
+            "data": "2026-07-03",
+            "valor": 68.68
+          },
+          {
+            "data": "2026-07-06",
+            "valor": 69.56
+          },
+          {
+            "data": "2026-07-07",
+            "valor": 71.78
+          },
+          {
+            "data": "2026-07-08",
+            "valor": 76.5
+          },
+          {
+            "data": "2026-07-09",
+            "valor": 74.46
+          },
+          {
+            "data": "2026-07-10",
+            "valor": 74.34
+          },
+          {
+            "data": "2026-07-13",
+            "valor": 81.62
+          },
+          {
+            "data": "2026-07-14",
+            "valor": 83.69
+          },
+          {
+            "data": "2026-07-15",
+            "valor": 83.08
+          },
+          {
+            "data": "2026-07-16",
+            "valor": 81.23
+          },
+          {
+            "data": "2026-07-17",
+            "valor": 85.01
+          },
+          {
+            "data": "2026-07-20",
+            "valor": 86.99
+          },
+          {
+            "data": "2026-07-21",
+            "valor": 93.85
+          },
+          {
+            "data": "2026-07-22",
+            "valor": 94.12
+          },
+          {
+            "data": "2026-07-23",
+            "valor": 105.32
+          },
+          {
+            "data": "2026-07-24",
+            "valor": 100.31
+          },
+          {
+            "data": "2026-07-27",
+            "valor": 91.82
+          },
+          {
+            "data": "2026-07-28",
+            "valor": 85.51
+          },
+          {
+            "data": "2026-07-29",
+            "valor": 91.95
+          },
+          {
+            "data": "2026-07-30",
+            "valor": 91.91
+          },
+          {
+            "data": "2026-07-31",
+            "valor": 96.95
+          },
+          {
+            "data": "2026-08-03",
+            "valor": 88.9
+          },
+          {
+            "data": "2026-08-04",
+            "valor": 86.47
+          },
+          {
+            "data": "2026-08-05",
+            "valor": 86.65
+          },
+          {
+            "data": "2026-08-06",
+            "valor": 89.65
+          },
+          {
+            "data": "2026-08-07",
+            "valor": 87.62
+          },
+          {
+            "data": "2026-08-10",
+            "valor": 92.74
+          },
+          {
+            "data": "2026-08-11",
+            "valor": 93.26
+          },
+          {
+            "data": "2026-08-12",
+            "valor": 92.52
+          },
+          {
+            "data": "2026-08-13",
+            "valor": 92.03
+          },
+          {
+            "data": "2026-08-14",
+            "valor": 92.02
+          },
+          {
+            "data": "2026-08-17",
+            "valor": 92.43
+          },
+          {
+            "data": "2026-08-18",
+            "valor": 95.29
+          },
+          {
+            "data": "2026-08-19",
+            "valor": 92.37
+          },
+          {
+            "data": "2026-08-20",
+            "valor": 94
+          },
+          {
+            "data": "2026-08-21",
+            "valor": 96.92
+          },
+          {
+            "data": "2026-08-24",
+            "valor": 92.71
+          },
+          {
+            "data": "2026-08-25",
+            "valor": 88.24
+          },
+          {
+            "data": "2026-08-26",
+            "valor": 87.77
+          },
+          {
+            "data": "2026-08-27",
+            "valor": 90.18
+          },
+          {
+            "data": "2026-08-28",
+            "valor": 89.75
+          },
+          {
+            "data": "2026-09-01",
+            "valor": 96.02
+          },
+          {
+            "data": "2026-09-02",
+            "valor": 97.59
+          },
+          {
+            "data": "2026-09-03",
+            "valor": 100.52
+          },
+          {
+            "data": "2026-09-04",
+            "valor": 102.24
+          },
+          {
+            "data": "2026-09-07",
+            "valor": 104.47
+          },
+          {
+            "data": "2026-09-08",
+            "valor": 106.12
+          },
+          {
+            "data": "2026-09-09",
+            "valor": 109.51
+          },
+          {
+            "data": "2026-09-10",
+            "valor": 120.98
+          },
+          {
+            "data": "2026-09-11",
+            "valor": 118.06
+          },
+          {
+            "data": "2026-09-14",
+            "valor": 121.25
+          },
+          {
+            "data": "2026-09-15",
+            "valor": 130.8
+          },
+          {
+            "data": "2026-09-16",
+            "valor": 127.84
+          },
+          {
+            "data": "2026-09-17",
+            "valor": 121.18
+          },
+          {
+            "data": "2026-09-18",
+            "valor": 119.66
+          },
+          {
+            "data": "2026-09-21",
+            "valor": 116.15
+          },
+          {
+            "data": "2026-09-22",
+            "valor": 114.89
+          },
+          {
+            "data": "2026-09-23",
+            "valor": 117.45
+          },
+          {
+            "data": "2026-09-24",
+            "valor": 120.92
+          },
+          {
+            "data": "2026-09-25",
+            "valor": 116.01
+          },
+          {
+            "data": "2026-09-28",
+            "valor": 119.97
+          },
+          {
+            "data": "2026-09-29",
+            "valor": 113.96
+          },
+          {
+            "data": "2026-09-30",
+            "valor": 115.91
+          },
+          {
+            "data": "2026-10-01",
+            "valor": 114.82
+          },
+          {
+            "data": "2026-10-02",
+            "valor": 135.51
+          },
+          {
+            "data": "2026-10-05",
+            "valor": 125.51
+          },
+          {
+            "data": "2026-10-06",
+            "valor": 125.44
+          },
+          {
+            "data": "2026-10-07",
+            "valor": 126
+          },
+          {
+            "data": "2026-10-08",
+            "valor": 130.18
+          },
+          {
+            "data": "2026-10-09",
+            "valor": 130.03
+          },
+          {
+            "data": "2026-10-12",
+            "valor": 129.95
+          },
+          {
+            "data": "2026-10-13",
+            "valor": 125.78
+          },
+          {
+            "data": "2026-10-14",
+            "valor": 126.55
+          },
+          {
+            "data": "2026-10-15",
+            "valor": 126.35
+          },
+          {
+            "data": "2026-10-16",
+            "valor": 119.33
+          },
+          {
+            "data": "2026-10-19",
+            "valor": 118.82
+          },
+          {
+            "data": "2026-10-20",
+            "valor": 115.22
+          },
+          {
+            "data": "2026-10-21",
+            "valor": 117.37
+          },
+          {
+            "data": "2026-10-22",
+            "valor": 125.39
+          },
+          {
+            "data": "2026-10-23",
+            "valor": 128.3
+          },
+          {
+            "data": "2026-10-26",
+            "valor": 128.12
+          },
+          {
+            "data": "2026-10-27",
+            "valor": 123.1
+          },
+          {
+            "data": "2026-10-28",
+            "valor": 119.2
+          },
+          {
+            "data": "2026-10-29",
+            "valor": 115.28
+          },
+          {
+            "data": "2026-10-30",
+            "valor": 120.15
+          },
+          {
+            "data": "2026-11-02",
+            "valor": 107.39
+          },
+          {
+            "data": "2026-11-03",
+            "valor": 107.03
+          }
+        ]
+      },
+      {
+        "id": "cambio",
+        "nome": "Câmbio",
+        "unidade": "R$/US$",
+        "fonte": "Banco Central, PTAX média mensal",
+        "series": [
+          {
+            "nome": "Dólar PTAX",
+            "serie": [
+              {
+                "mes": "2025-12",
+                "valor": 5.4531
+              },
+              {
+                "mes": "2026-01",
+                "valor": 5.338
+              },
+              {
+                "mes": "2026-02",
+                "valor": 5.2006
+              },
+              {
+                "mes": "2026-03",
+                "valor": 5.2316
+              },
+              {
+                "mes": "2026-04",
+                "valor": 5.0331
+              },
+              {
+                "mes": "2026-05",
+                "valor": 4.9837
+              },
+              {
+                "mes": "2026-06",
+                "valor": 5.1276
+              },
+              {
+                "mes": "2026-07",
+                "valor": 5.1139
+              },
+              {
+                "mes": "2026-08",
+                "valor": 5.1532
+              },
+              {
+                "mes": "2026-09",
+                "valor": 5.1447
+              },
+              {
+                "mes": "2026-10",
+                "valor": 5.1294
+              },
+              {
+                "mes": "2026-11",
+                "valor": 5.4857,
+                "parcial": true,
+                "ate": "2026-11-04"
+              }
+            ],
+            "n": {
+              "mes": "2026-11",
+              "valor": 5.4857,
+              "parcial": true,
+              "ate": "2026-11-04"
+            },
+            "n_1": {
+              "mes": "2026-10",
+              "valor": 5.1294
+            },
+            "var_abs": 0.3563,
+            "var_pct": 6.9
+          }
+        ],
+        "ultimo_dia": {
+          "data": "2026-11-04",
+          "valor": 5.4778
+        },
+        "serie_diaria": [
+          {
+            "data": "2025-11-05",
+            "valor": 5.3798
+          },
+          {
+            "data": "2025-11-06",
+            "valor": 5.3451
+          },
+          {
+            "data": "2025-11-07",
+            "valor": 5.3567
+          },
+          {
+            "data": "2025-11-10",
+            "valor": 5.3181
+          },
+          {
+            "data": "2025-11-11",
+            "valor": 5.2729
+          },
+          {
+            "data": "2025-11-12",
+            "valor": 5.2885
+          },
+          {
+            "data": "2025-11-13",
+            "valor": 5.282
+          },
+          {
+            "data": "2025-11-14",
+            "valor": 5.2952
+          },
+          {
+            "data": "2025-11-17",
+            "valor": 5.3108
+          },
+          {
+            "data": "2025-11-18",
+            "valor": 5.3361
+          },
+          {
+            "data": "2025-11-19",
+            "valor": 5.3346
+          },
+          {
+            "data": "2025-11-21",
+            "valor": 5.3902
+          },
+          {
+            "data": "2025-11-24",
+            "valor": 5.3948
+          },
+          {
+            "data": "2025-11-25",
+            "valor": 5.3841
+          },
+          {
+            "data": "2025-11-26",
+            "valor": 5.3694
+          },
+          {
+            "data": "2025-11-27",
+            "valor": 5.349
+          },
+          {
+            "data": "2025-11-28",
+            "valor": 5.3338
+          },
+          {
+            "data": "2025-12-01",
+            "valor": 5.3469
+          },
+          {
+            "data": "2025-12-02",
+            "valor": 5.3465
+          },
+          {
+            "data": "2025-12-03",
+            "valor": 5.3114
+          },
+          {
+            "data": "2025-12-04",
+            "valor": 5.2952
+          },
+          {
+            "data": "2025-12-05",
+            "valor": 5.3405
+          },
+          {
+            "data": "2025-12-08",
+            "valor": 5.4249
+          },
+          {
+            "data": "2025-12-09",
+            "valor": 5.457
+          },
+          {
+            "data": "2025-12-10",
+            "valor": 5.4656
+          },
+          {
+            "data": "2025-12-11",
+            "valor": 5.4237
+          },
+          {
+            "data": "2025-12-12",
+            "valor": 5.4011
+          },
+          {
+            "data": "2025-12-15",
+            "valor": 5.3929
+          },
+          {
+            "data": "2025-12-16",
+            "valor": 5.4505
+          },
+          {
+            "data": "2025-12-17",
+            "valor": 5.5093
+          },
+          {
+            "data": "2025-12-18",
+            "valor": 5.5283
+          },
+          {
+            "data": "2025-12-19",
+            "valor": 5.516
+          },
+          {
+            "data": "2025-12-22",
+            "valor": 5.5389
+          },
+          {
+            "data": "2025-12-23",
+            "valor": 5.5643
+          },
+          {
+            "data": "2025-12-24",
+            "valor": 5.535
+          },
+          {
+            "data": "2025-12-26",
+            "valor": 5.5413
+          },
+          {
+            "data": "2025-12-29",
+            "valor": 5.5739
+          },
+          {
+            "data": "2025-12-30",
+            "valor": 5.5024
+          },
+          {
+            "data": "2025-12-31",
+            "valor": 5.5024
+          },
+          {
+            "data": "2026-01-02",
+            "valor": 5.4372
+          },
+          {
+            "data": "2026-01-05",
+            "valor": 5.4351
+          },
+          {
+            "data": "2026-01-06",
+            "valor": 5.3797
+          },
+          {
+            "data": "2026-01-07",
+            "valor": 5.388
+          },
+          {
+            "data": "2026-01-08",
+            "valor": 5.386
+          },
+          {
+            "data": "2026-01-09",
+            "valor": 5.3707
+          },
+          {
+            "data": "2026-01-12",
+            "valor": 5.376
+          },
+          {
+            "data": "2026-01-13",
+            "valor": 5.3764
+          },
+          {
+            "data": "2026-01-14",
+            "valor": 5.3795
+          },
+          {
+            "data": "2026-01-15",
+            "valor": 5.3846
+          },
+          {
+            "data": "2026-01-16",
+            "valor": 5.3798
+          },
+          {
+            "data": "2026-01-19",
+            "valor": 5.3653
+          },
+          {
+            "data": "2026-01-20",
+            "valor": 5.379
+          },
+          {
+            "data": "2026-01-21",
+            "valor": 5.3368
+          },
+          {
+            "data": "2026-01-22",
+            "valor": 5.3118
+          },
+          {
+            "data": "2026-01-23",
+            "valor": 5.2879
+          },
+          {
+            "data": "2026-01-26",
+            "valor": 5.276
+          },
+          {
+            "data": "2026-01-27",
+            "valor": 5.2392
+          },
+          {
+            "data": "2026-01-28",
+            "valor": 5.1838
+          },
+          {
+            "data": "2026-01-29",
+            "valor": 5.1956
+          },
+          {
+            "data": "2026-01-30",
+            "valor": 5.2301
+          },
+          {
+            "data": "2026-02-02",
+            "valor": 5.2587
+          },
+          {
+            "data": "2026-02-03",
+            "valor": 5.2236
+          },
+          {
+            "data": "2026-02-04",
+            "valor": 5.2359
+          },
+          {
+            "data": "2026-02-05",
+            "valor": 5.258
+          },
+          {
+            "data": "2026-02-06",
+            "valor": 5.2341
+          },
+          {
+            "data": "2026-02-09",
+            "valor": 5.1943
+          },
+          {
+            "data": "2026-02-10",
+            "valor": 5.2021
+          },
+          {
+            "data": "2026-02-11",
+            "valor": 5.1836
+          },
+          {
+            "data": "2026-02-12",
+            "valor": 5.1674
+          },
+          {
+            "data": "2026-02-13",
+            "valor": 5.2288
+          },
+          {
+            "data": "2026-02-18",
+            "valor": 5.2349
+          },
+          {
+            "data": "2026-02-19",
+            "valor": 5.2257
+          },
+          {
+            "data": "2026-02-20",
+            "valor": 5.2006
+          },
+          {
+            "data": "2026-02-23",
+            "valor": 5.1635
+          },
+          {
+            "data": "2026-02-24",
+            "valor": 5.1682
+          },
+          {
+            "data": "2026-02-25",
+            "valor": 5.144
+          },
+          {
+            "data": "2026-02-26",
+            "valor": 5.1382
+          },
+          {
+            "data": "2026-02-27",
+            "valor": 5.1495
+          },
+          {
+            "data": "2026-03-02",
+            "valor": 5.2001
+          },
+          {
+            "data": "2026-03-03",
+            "valor": 5.287
+          },
+          {
+            "data": "2026-03-04",
+            "valor": 5.2091
+          },
+          {
+            "data": "2026-03-05",
+            "valor": 5.2447
+          },
+          {
+            "data": "2026-03-06",
+            "valor": 5.2878
+          },
+          {
+            "data": "2026-03-09",
+            "valor": 5.2139
+          },
+          {
+            "data": "2026-03-10",
+            "valor": 5.1622
+          },
+          {
+            "data": "2026-03-11",
+            "valor": 5.1596
+          },
+          {
+            "data": "2026-03-12",
+            "valor": 5.2051
+          },
+          {
+            "data": "2026-03-13",
+            "valor": 5.2541
+          },
+          {
+            "data": "2026-03-16",
+            "valor": 5.2647
+          },
+          {
+            "data": "2026-03-17",
+            "valor": 5.2022
+          },
+          {
+            "data": "2026-03-18",
+            "valor": 5.2112
+          },
+          {
+            "data": "2026-03-19",
+            "valor": 5.2587
+          },
+          {
+            "data": "2026-03-20",
+            "valor": 5.28
+          },
+          {
+            "data": "2026-03-23",
+            "valor": 5.244
+          },
+          {
+            "data": "2026-03-24",
+            "valor": 5.2599
+          },
+          {
+            "data": "2026-03-25",
+            "valor": 5.2275
+          },
+          {
+            "data": "2026-03-26",
+            "valor": 5.2308
+          },
+          {
+            "data": "2026-03-27",
+            "valor": 5.2376
+          },
+          {
+            "data": "2026-03-30",
+            "valor": 5.2353
+          },
+          {
+            "data": "2026-03-31",
+            "valor": 5.2194
+          },
+          {
+            "data": "2026-04-01",
+            "valor": 5.1606
+          },
+          {
+            "data": "2026-04-02",
+            "valor": 5.1655
+          },
+          {
+            "data": "2026-04-06",
+            "valor": 5.1532
+          },
+          {
+            "data": "2026-04-07",
+            "valor": 5.1625
+          },
+          {
+            "data": "2026-04-08",
+            "valor": 5.0899
+          },
+          {
+            "data": "2026-04-09",
+            "valor": 5.0821
+          },
+          {
+            "data": "2026-04-10",
+            "valor": 5.0229
+          },
+          {
+            "data": "2026-04-13",
+            "valor": 5.0244
+          },
+          {
+            "data": "2026-04-14",
+            "valor": 4.9806
+          },
+          {
+            "data": "2026-04-15",
+            "valor": 4.9928
+          },
+          {
+            "data": "2026-04-16",
+            "valor": 5.0007
+          },
+          {
+            "data": "2026-04-17",
+            "valor": 4.9695
+          },
+          {
+            "data": "2026-04-20",
+            "valor": 4.9844
+          },
+          {
+            "data": "2026-04-22",
+            "valor": 4.9653
+          },
+          {
+            "data": "2026-04-23",
+            "valor": 4.9539
+          },
+          {
+            "data": "2026-04-24",
+            "valor": 5.0083
+          },
+          {
+            "data": "2026-04-27",
+            "valor": 4.97
+          },
+          {
+            "data": "2026-04-28",
+            "valor": 4.9878
+          },
+          {
+            "data": "2026-04-29",
+            "valor": 4.9985
+          },
+          {
+            "data": "2026-04-30",
+            "valor": 4.9886
+          },
+          {
+            "data": "2026-05-04",
+            "valor": 4.9587
+          },
+          {
+            "data": "2026-05-05",
+            "valor": 4.9242
+          },
+          {
+            "data": "2026-05-06",
+            "valor": 4.9274
+          },
+          {
+            "data": "2026-05-07",
+            "valor": 4.917
+          },
+          {
+            "data": "2026-05-08",
+            "valor": 4.8999
+          },
+          {
+            "data": "2026-05-11",
+            "valor": 4.8973
+          },
+          {
+            "data": "2026-05-12",
+            "valor": 4.8977
+          },
+          {
+            "data": "2026-05-13",
+            "valor": 4.9118
+          },
+          {
+            "data": "2026-05-14",
+            "valor": 4.9809
+          },
+          {
+            "data": "2026-05-15",
+            "valor": 5.0654
+          },
+          {
+            "data": "2026-05-18",
+            "valor": 5.0093
+          },
+          {
+            "data": "2026-05-19",
+            "valor": 5.0378
+          },
+          {
+            "data": "2026-05-20",
+            "valor": 5.0301
+          },
+          {
+            "data": "2026-05-21",
+            "valor": 5.0077
+          },
+          {
+            "data": "2026-05-22",
+            "valor": 5.014
+          },
+          {
+            "data": "2026-05-25",
+            "valor": 5.0072
+          },
+          {
+            "data": "2026-05-26",
+            "valor": 5.0211
+          },
+          {
+            "data": "2026-05-27",
+            "valor": 5.0579
+          },
+          {
+            "data": "2026-05-28",
+            "valor": 5.0517
+          },
+          {
+            "data": "2026-05-29",
+            "valor": 5.0569
+          },
+          {
+            "data": "2026-06-01",
+            "valor": 5.0303
+          },
+          {
+            "data": "2026-06-02",
+            "valor": 5.016
+          },
+          {
+            "data": "2026-06-03",
+            "valor": 5.0415
+          },
+          {
+            "data": "2026-06-05",
+            "valor": 5.1244
+          },
+          {
+            "data": "2026-06-08",
+            "valor": 5.1695
+          },
+          {
+            "data": "2026-06-09",
+            "valor": 5.1693
+          },
+          {
+            "data": "2026-06-10",
+            "valor": 5.1763
+          },
+          {
+            "data": "2026-06-11",
+            "valor": 5.1478
+          },
+          {
+            "data": "2026-06-12",
+            "valor": 5.0827
+          },
+          {
+            "data": "2026-06-15",
+            "valor": 5.043
+          },
+          {
+            "data": "2026-06-16",
+            "valor": 5.078
+          },
+          {
+            "data": "2026-06-17",
+            "valor": 5.0641
+          },
+          {
+            "data": "2026-06-18",
+            "valor": 5.1613
+          },
+          {
+            "data": "2026-06-19",
+            "valor": 5.1442
+          },
+          {
+            "data": "2026-06-22",
+            "valor": 5.1395
+          },
+          {
+            "data": "2026-06-23",
+            "valor": 5.1743
+          },
+          {
+            "data": "2026-06-24",
+            "valor": 5.2098
+          },
+          {
+            "data": "2026-06-25",
+            "valor": 5.1892
+          },
+          {
+            "data": "2026-06-26",
+            "valor": 5.1695
+          },
+          {
+            "data": "2026-06-29",
+            "valor": 5.1717
+          },
+          {
+            "data": "2026-06-30",
+            "valor": 5.1766
+          },
+          {
+            "data": "2026-07-01",
+            "valor": 5.195
+          },
+          {
+            "data": "2026-07-02",
+            "valor": 5.1945
+          },
+          {
+            "data": "2026-07-03",
+            "valor": 5.1717
+          },
+          {
+            "data": "2026-07-06",
+            "valor": 5.167
+          },
+          {
+            "data": "2026-07-07",
+            "valor": 5.1458
+          },
+          {
+            "data": "2026-07-08",
+            "valor": 5.1552
+          },
+          {
+            "data": "2026-07-09",
+            "valor": 5.1329
+          },
+          {
+            "data": "2026-07-10",
+            "valor": 5.1088
+          },
+          {
+            "data": "2026-07-13",
+            "valor": 5.1183
+          },
+          {
+            "data": "2026-07-14",
+            "valor": 5.0742
+          },
+          {
+            "data": "2026-07-15",
+            "valor": 5.0727
+          },
+          {
+            "data": "2026-07-16",
+            "valor": 5.0975
+          },
+          {
+            "data": "2026-07-17",
+            "valor": 5.1176
+          },
+          {
+            "data": "2026-07-20",
+            "valor": 5.0894
+          },
+          {
+            "data": "2026-07-21",
+            "valor": 5.078
+          },
+          {
+            "data": "2026-07-22",
+            "valor": 5.0638
+          },
+          {
+            "data": "2026-07-23",
+            "valor": 5.0807
+          },
+          {
+            "data": "2026-07-24",
+            "valor": 5.0666
+          },
+          {
+            "data": "2026-07-27",
+            "valor": 5.1005
+          },
+          {
+            "data": "2026-07-28",
+            "valor": 5.1177
+          },
+          {
+            "data": "2026-07-29",
+            "valor": 5.1217
+          },
+          {
+            "data": "2026-07-30",
+            "valor": 5.0739
+          },
+          {
+            "data": "2026-07-31",
+            "valor": 5.0773
+          },
+          {
+            "data": "2026-08-03",
+            "valor": 5.0723
+          },
+          {
+            "data": "2026-08-04",
+            "valor": 5.1053
+          },
+          {
+            "data": "2026-08-05",
+            "valor": 5.1154
+          },
+          {
+            "data": "2026-08-06",
+            "valor": 5.1017
+          },
+          {
+            "data": "2026-08-07",
+            "valor": 5.0908
+          },
+          {
+            "data": "2026-08-10",
+            "valor": 5.0963
+          },
+          {
+            "data": "2026-08-11",
+            "valor": 5.1285
+          },
+          {
+            "data": "2026-08-12",
+            "valor": 5.1639
+          },
+          {
+            "data": "2026-08-13",
+            "valor": 5.1859
+          },
+          {
+            "data": "2026-08-14",
+            "valor": 5.2236
+          },
+          {
+            "data": "2026-08-17",
+            "valor": 5.2014
+          },
+          {
+            "data": "2026-08-18",
+            "valor": 5.2043
+          },
+          {
+            "data": "2026-08-19",
+            "valor": 5.1714
+          },
+          {
+            "data": "2026-08-20",
+            "valor": 5.1862
+          },
+          {
+            "data": "2026-08-21",
+            "valor": 5.1625
+          },
+          {
+            "data": "2026-08-24",
+            "valor": 5.1512
+          },
+          {
+            "data": "2026-08-25",
+            "valor": 5.149
+          },
+          {
+            "data": "2026-08-26",
+            "valor": 5.1604
+          },
+          {
+            "data": "2026-08-27",
+            "valor": 5.1642
+          },
+          {
+            "data": "2026-08-28",
+            "valor": 5.2005
+          },
+          {
+            "data": "2026-08-31",
+            "valor": 5.1816
+          },
+          {
+            "data": "2026-09-01",
+            "valor": 5.157
+          },
+          {
+            "data": "2026-09-02",
+            "valor": 5.1273
+          },
+          {
+            "data": "2026-09-03",
+            "valor": 5.0962
+          },
+          {
+            "data": "2026-09-04",
+            "valor": 5.1253
+          },
+          {
+            "data": "2026-09-08",
+            "valor": 5.0856
+          },
+          {
+            "data": "2026-09-09",
+            "valor": 5.0979
+          },
+          {
+            "data": "2026-09-10",
+            "valor": 5.1149
+          },
+          {
+            "data": "2026-09-11",
+            "valor": 5.0918
+          },
+          {
+            "data": "2026-09-14",
+            "valor": 5.1696
+          },
+          {
+            "data": "2026-09-15",
+            "valor": 5.149
+          },
+          {
+            "data": "2026-09-16",
+            "valor": 5.1527
+          },
+          {
+            "data": "2026-09-17",
+            "valor": 5.1521
+          },
+          {
+            "data": "2026-09-18",
+            "valor": 5.1575
+          },
+          {
+            "data": "2026-09-21",
+            "valor": 5.1117
+          },
+          {
+            "data": "2026-09-22",
+            "valor": 5.1161
+          },
+          {
+            "data": "2026-09-23",
+            "valor": 5.1414
+          },
+          {
+            "data": "2026-09-24",
+            "valor": 5.1795
+          },
+          {
+            "data": "2026-09-25",
+            "valor": 5.1991
+          },
+          {
+            "data": "2026-09-28",
+            "valor": 5.2132
+          },
+          {
+            "data": "2026-09-29",
+            "valor": 5.2204
+          },
+          {
+            "data": "2026-09-30",
+            "valor": 5.1809
+          },
+          {
+            "data": "2026-10-01",
+            "valor": 5.2079
+          },
+          {
+            "data": "2026-10-02",
+            "valor": 5.2238
+          },
+          {
+            "data": "2026-10-05",
+            "valor": 4.9859
+          },
+          {
+            "data": "2026-10-06",
+            "valor": 4.9698
+          },
+          {
+            "data": "2026-10-07",
+            "valor": 4.9935
+          },
+          {
+            "data": "2026-10-08",
+            "valor": 5.0119
+          },
+          {
+            "data": "2026-10-09",
+            "valor": 4.9892
+          },
+          {
+            "data": "2026-10-13",
+            "valor": 5.0096
+          },
+          {
+            "data": "2026-10-14",
+            "valor": 5.0441
+          },
+          {
+            "data": "2026-10-15",
+            "valor": 5.0521
+          },
+          {
+            "data": "2026-10-16",
+            "valor": 5.0826
+          },
+          {
+            "data": "2026-10-19",
+            "valor": 5.0564
+          },
+          {
+            "data": "2026-10-20",
+            "valor": 5.014
+          },
+          {
+            "data": "2026-10-21",
+            "valor": 5.0277
+          },
+          {
+            "data": "2026-10-22",
+            "valor": 5.0383
+          },
+          {
+            "data": "2026-10-23",
+            "valor": 5.0377
+          },
+          {
+            "data": "2026-10-26",
+            "valor": 5.5007
+          },
+          {
+            "data": "2026-10-27",
+            "valor": 5.3346
+          },
+          {
+            "data": "2026-10-28",
+            "valor": 5.342
+          },
+          {
+            "data": "2026-10-29",
+            "valor": 5.3744
+          },
+          {
+            "data": "2026-10-30",
+            "valor": 5.4212
+          },
+          {
+            "data": "2026-11-03",
+            "valor": 5.4935
+          },
+          {
+            "data": "2026-11-04",
+            "valor": 5.4778
+          }
+        ]
+      },
+      {
+        "id": "frete",
+        "nome": "Frete internacional",
+        "unidade": "US$/t",
+        "fonte": "Comex Stat: frete pago na importação ÷ toneladas (o mês seguinte sai no início do próximo mês)",
+        "series": [
+          {
+            "nome": "PE",
+            "serie": [
+              {
+                "mes": "2025-10",
+                "valor": 50
+              },
+              {
+                "mes": "2025-11",
+                "valor": 48
+              },
+              {
+                "mes": "2025-12",
+                "valor": 46
+              },
+              {
+                "mes": "2026-01",
+                "valor": 49
+              },
+              {
+                "mes": "2026-02",
+                "valor": 46
+              },
+              {
+                "mes": "2026-03",
+                "valor": 47
+              },
+              {
+                "mes": "2026-04",
+                "valor": 65
+              },
+              {
+                "mes": "2026-05",
+                "valor": 67
+              },
+              {
+                "mes": "2026-06",
+                "valor": 75
+              },
+              {
+                "mes": "2026-07",
+                "valor": 84
+              },
+              {
+                "mes": "2026-08",
+                "valor": 107
+              },
+              {
+                "mes": "2026-09",
+                "valor": 87
+              }
+            ],
+            "n": {
+              "mes": "2026-09",
+              "valor": 87
+            },
+            "n_1": {
+              "mes": "2026-08",
+              "valor": 107
+            },
+            "var_abs": -20,
+            "var_pct": -18.7
+          }
+        ],
+        "peso_no_preco_pct": {
+          "PE": {
+            "mes": "2026-09",
+            "valor": 5.6
+          }
+        }
+      },
+      {
+        "id": "resinas",
+        "nome": "Referência de preço da resina",
+        "unidade": "US$/t",
+        "fonte": "Preço FOB médio das importações brasileiras (Comex Stat/MDIC, NCM 3901) — não é cotação de agência (ICIS, Platts); o mês seguinte sai no início do próximo mês",
+        "series": [
+          {
+            "nome": "PE",
+            "serie": [
+              {
+                "mes": "2025-10",
+                "valor": 1079
+              },
+              {
+                "mes": "2025-11",
+                "valor": 1078
+              },
+              {
+                "mes": "2025-12",
+                "valor": 1052
+              },
+              {
+                "mes": "2026-01",
+                "valor": 1008
+              },
+              {
+                "mes": "2026-02",
+                "valor": 1055
+              },
+              {
+                "mes": "2026-03",
+                "valor": 1074
+              },
+              {
+                "mes": "2026-04",
+                "valor": 1122
+              },
+              {
+                "mes": "2026-05",
+                "valor": 1335
+              },
+              {
+                "mes": "2026-06",
+                "valor": 1542
+              },
+              {
+                "mes": "2026-07",
+                "valor": 1715
+              },
+              {
+                "mes": "2026-08",
+                "valor": 1613
+              },
+              {
+                "mes": "2026-09",
+                "valor": 1460
+              }
+            ],
+            "n": {
+              "mes": "2026-09",
+              "valor": 1460
+            },
+            "n_1": {
+              "mes": "2026-08",
+              "valor": 1613
+            },
+            "var_abs": -153,
+            "var_pct": -9.5
+          }
+        ]
+      }
+    ],
+    "notas_campo": []
+  }
+}

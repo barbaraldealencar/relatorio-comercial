@@ -1,0 +1,24 @@
+{
+  "name": "preparador-reunioes-mercado",
+  "version": "0.1.0",
+  "description": "Agente que prepara reuniões comerciais só com informações públicas de mercado (sem dados comerciais internos)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "briefing": "node agentes/preparador_reuniao.js",
+    "gerar-painel": "node agentes/gerar_painel.js",
+    "painel": "node servidor.js",
+    "exportar-painel": "node scripts/exportar_painel.js --pdf",
+    "atualizar-dados": "node scripts/atualizar_dados.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/bedrock-sdk": "^0.34.4",
+    "@anthropic-ai/sdk": "^0.132.1",
+    "adm-zip": "^0.6.1",
+    "chart.js": "^4.4.1",
+    "marked": "^18.1.0"
+  }
+}

@@ -1,0 +1,66 @@
+# Atualiza os números do relatório (dados públicos) e publica o painel no GitHub Pages.
+# Roda toda segunda-feira às 7h (Brasília) e também na hora, pelo botão "Run workflow" (workflow_dispatch).
+# Os textos (bullets, roteiro) não mudam aqui: são atualizados nas conversas com a IA e enviados ao repositório.
+name: Atualizar dados do relatório
+
+on:
+  schedule:
+    - cron: '0 10 * * 1'   # segunda, 10h UTC = 7h em Brasília
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  VERSAO: 'Preparador de reunião sem dados comerciais'
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: 'Preparador de reunião sem dados comerciais/backend/package-lock.json'
+
+      - name: Instalar dependências
+        working-directory: ${{ env.VERSAO }}/backend
+        run: npm ci
+
+      - name: Atualizar os números (Brent, câmbio, frete, Comex, IBGE, CVM, notícias)
+        working-directory: ${{ env.VERSAO }}/backend
+        run: node scripts/atualizar_dados.js --sem-pdf
+
+      - name: Montar o site
+        run: |
+          mkdir -p site
+          cp "$VERSAO/relatorios/carteira_mercado.html" site/index.html
+          # Botão "Atualizar dados" do site abre esta página do Actions (onde fica o "Run workflow")
+          LINK="${{ github.server_url }}/${{ github.repository }}/actions/workflows/atualizar-dados.yml"
+          sed -i "s#</head>#<script>window.LINK_ATUALIZAR='$LINK';</script></head>#" site/index.html
+          touch site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  publicar:
+    needs: atualizar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.pages.outputs.page_url }}
+    steps:
+      - id: pages
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,57 @@
+{
+  "segmento": "tampas_plasticas",
+  "nome": "Tampas e fechamentos plásticos (bebidas, óleos, alimentos e químicos)",
+  "como_o_setor_usa_resina": "Tampas de bebidas (água, refrigerante, sucos) e de óleo comestível são injetadas ou comprimidas principalmente em PEAD; PP aparece em tampas com dobradiça (flip-top) e dosadoras. A resina é o principal custo da tampa, e o mercado busca tampas cada vez mais leves (menos gramas por tampa), o que reduz o consumo de resina por unidade.",
+  "drivers_de_demanda": [
+    "Consumo de bebidas não alcoólicas (refrigerante, água, sucos): sobe com calor e verão",
+    "Produção de óleos comestíveis e alimentos",
+    "Lubrificantes e químicos (tampas técnicas e com lacre)",
+    "Tampas mais leves e gargalos menores: menos resina por tampa",
+    "Concorrência de tampas importadas e de produção própria dos envasadores",
+    "Pressão por reciclabilidade (tampa do mesmo material da garrafa) e conteúdo reciclado"
+  ],
+  "series_ibge": [
+    "pim_bebidas_nao_alcoolicas",
+    "pim_bebidas",
+    "pim_oleos_refinados",
+    "pim_embalagens_plasticas",
+    "varejo_supermercados"
+  ],
+  "empresas_listadas": [
+    {
+      "busca": "AMBEV",
+      "ticker": "ABEV3.SA",
+      "papel": "Envasador de bebidas (cliente final de tampas)"
+    },
+    {
+      "busca": "M.DIAS BRANCO",
+      "ticker": "MDIA3.SA",
+      "papel": "Alimentos e óleos (cliente final de tampas)"
+    }
+  ],
+  "linhas_importacao": [
+    {
+      "grupo": "Tampas",
+      "linha": "Tampas, cápsulas e rolhas de plástico",
+      "sh6": [
+        "392350"
+      ],
+      "resina": "PEAD e PP",
+      "unidade": "kg"
+    }
+  ],
+  "consultas_de_noticias_sugeridas": [
+    "tampas plásticas",
+    "Bericap",
+    "refrigerantes vendas",
+    "água mineral vendas calor",
+    "embalagens bebidas PET",
+    "óleo de soja produção"
+  ],
+  "perguntas_de_descoberta": [
+    "Como está o forecast de tampas para bebidas no verão (dez-fev)?",
+    "Quais clientes finais estão migrando para tampas mais leves ou gargalos menores?",
+    "Quanto da resina hoje é importada e de quais origens?",
+    "Há projetos de tampa com conteúdo reciclado ou monomaterial?"
+  ]
+}

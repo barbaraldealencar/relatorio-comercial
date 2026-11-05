@@ -1,0 +1,26 @@
+{
+  "segmento": "embalagens_sopro",
+  "nome": "Embalagens plásticas sopradas (frascos, bombonas, potes e preformas)",
+  "como_o_setor_usa_resina": "Resina é 55-70% do custo de uma embalagem soprada. PEAD é a base (frascos de limpeza, lubrificantes e alimentos; PEAD de alta massa molar para bombonas de agroquímicos), PEBD em frascos flexíveis, PP em frascos transparentes e tampas, PET em garrafas e preformas. Contratos com brand owners repassam resina com 1 a 3 meses de atraso.",
+  "drivers_de_demanda": [
+    "Consumo de bens não duráveis: limpeza, higiene e cosméticos, alimentos e bebidas",
+    "Safra agrícola: venda de defensivos define a demanda de bombonas (pico de produção de jun a out)",
+    "Lubrificantes: frota e trocas de óleo (tendência de leve queda)",
+    "Conteúdo reciclado (PCR) exigido por brand owners",
+    "Substituição por refis e redução de gramatura",
+    "Concorrência de PE importado dos EUA (feito de etano, mais barato)"
+  ],
+  "series_ibge": ["pim_embalagens_plasticas", "pim_limpeza_cosmeticos", "pim_defensivos", "pim_alimentos", "varejo_supermercados", "varejo_farma_cosmeticos", "varejo_combustiveis_lubrificantes"],
+  "empresas_listadas": [
+    { "busca": "NATURA", "ticker": "NATU3.SA", "papel": "Brand owner de higiene e cosméticos (cliente final típico)" },
+    { "busca": "M.DIAS BRANCO", "ticker": "MDIA3.SA", "papel": "Brand owner de alimentos" },
+    { "busca": "VITTIA", "ticker": "VITT3.SA", "papel": "Insumos agrícolas (demanda de embalagens agro)" }
+  ],
+  "consultas_de_noticias_sugeridas": ["embalagens plásticas mercado", "polietileno importado Estados Unidos", "resina reciclada PCR embalagens", "defensivos agrícolas vendas safra", "ABIPLAST transformados plásticos"],
+  "perguntas_de_descoberta": [
+    "Qual o forecast de bombonas para a safra e quanto já está contratado com o agro?",
+    "Quanto do PE vem de importação hoje e a que preço?",
+    "Qual a meta de conteúdo reciclado (PCR) de cada brand owner em 2027?",
+    "Com quanto atraso os contratos com brand owners repassam o preço da resina?"
+  ]
+}

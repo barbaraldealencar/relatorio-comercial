@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel de Reunião</title>
+  <link rel="stylesheet" href="css/painel.css">
+  <link rel="stylesheet" href="css/assistente.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="topo">
+    <div class="topo-conteudo">
+      <div class="topo-titulo">
+        <span class="kicker">Briefing de reunião comercial</span>
+        <h1 id="titulo-cliente">Carregando…</h1>
+        <p class="topo-meta" id="meta"></p>
+      </div>
+      <div class="topo-acoes">
+        <label class="seletor">
+          <span>Briefing</span>
+          <select id="seletor-painel" aria-label="Escolher briefing do cliente"></select>
+        </label>
+        <button type="button" class="botao so-ia" id="botao-novo-briefing">＋ Novo briefing</button>
+        <button type="button" class="botao" id="botao-imprimir">Imprimir / PDF</button>
+      </div>
+    </div>
+    <div class="aviso" id="aviso-ficticio" hidden>
+      Dados do cliente, peers, e-mails e atas são <strong>fictícios</strong> (base de demonstração). Macro, petróleo, projeções e notícias são <strong>reais</strong>.
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav class="navegacao" aria-label="Clientes e blocos do briefing">
+      <div class="lista-clientes" id="painel-clientes" hidden>
+        <h3 class="nav-titulo">Clientes</h3>
+        <ul id="lista-clientes"></ul>
+      </div>
+      <h3 class="nav-titulo" id="titulo-blocos">Blocos</h3>
+      <ol id="nav-blocos"></ol>
+    </nav>
+    <main id="conteudo" aria-live="polite">
+      <p class="carregando">Carregando painel…</p>
+    </main>
+  </div>
+
+  <!-- Assistente de IA (só aparece com o servidor local rodando) -->
+  <button type="button" class="ia-fab so-ia" id="ia-abrir" aria-controls="ia-gaveta" aria-expanded="false">✦ Assistente IA</button>
+  <aside class="ia-gaveta" id="ia-gaveta" aria-label="Assistente de IA" hidden>
+    <div class="ia-topo">
+      <div>
+        <strong>Assistente IA</strong>
+        <span class="ia-modelo" id="ia-modelo"></span>
+      </div>
+      <button type="button" class="ia-fechar" id="ia-fechar" aria-label="Fechar assistente">✕</button>
+    </div>
+    <div class="ia-abas" role="tablist">
+      <button type="button" role="tab" class="ia-aba ativa" data-aba="assistente" aria-selected="true">Assistente</button>
+      <button type="button" role="tab" class="ia-aba" data-aba="simulador" aria-selected="false">Simulador de negociação</button>
+    </div>
+
+    <section class="ia-painel" data-painel="assistente">
+      <div class="ia-mensagens" id="ia-msgs-assistente" aria-live="polite">
+        <div class="ia-boas-vindas">
+          <p>Pergunte qualquer coisa sobre o briefing. Eu uso os dados do cliente, peers, projeções e notícias de hoje.</p>
+          <div class="ia-sugestoes" id="ia-sugestoes"></div>
+        </div>
+      </div>
+      <form class="ia-form" id="ia-form-assistente">
+        <textarea rows="2" placeholder="Ex.: Como respondo se pedirem 75 dias de prazo?" aria-label="Mensagem para o assistente" required></textarea>
+        <button type="submit" class="ia-enviar" aria-label="Enviar">➤</button>
+      </form>
+    </section>
+
+    <section class="ia-painel" data-painel="simulador" hidden>
+      <div class="ia-mensagens" id="ia-msgs-simulador" aria-live="polite">
+        <div class="ia-boas-vindas">
+          <p><strong>Treine a reunião antes de ir.</strong> A IA faz o papel do comprador do cliente, com os pedidos e objeções do briefing. Negocie como faria de verdade; no fim, peça a avaliação para receber nota e feedback.</p>
+          <button type="button" class="botao botao-primario" id="sim-iniciar">Iniciar simulação</button>
+        </div>
+      </div>
+      <div class="sim-acoes" id="sim-acoes" hidden>
+        <button type="button" class="botao" id="sim-avaliar">Encerrar e avaliar</button>
+        <button type="button" class="botao" id="sim-reiniciar">Recomeçar</button>
+      </div>
+      <form class="ia-form" id="ia-form-simulador" hidden>
+        <textarea rows="2" placeholder="Sua fala na reunião…" aria-label="Sua fala na simulação" required></textarea>
+        <button type="submit" class="ia-enviar" aria-label="Enviar">➤</button>
+      </form>
+    </section>
+  </aside>
+
+  <!-- Gerar novo briefing -->
+  <dialog class="dialogo" id="dlg-briefing" aria-labelledby="dlg-titulo">
+    <form method="dialog" class="dialogo-conteudo" id="form-briefing">
+      <h2 id="dlg-titulo">Gerar novo briefing</h2>
+      <p class="nota">O agente busca notícias, indicadores e projeções de hoje, analisa o cliente e monta o painel. Leva cerca de 10 minutos.</p>
+      <label class="campo">Cliente<select id="nb-cliente" required></select></label>
+      <label class="campo">Data da reunião<input type="date" id="nb-data"></label>
+      <ol class="progresso" id="nb-progresso" hidden></ol>
+      <p class="nb-erro" id="nb-erro" hidden></p>
+      <div class="dialogo-acoes">
+        <button type="button" class="botao" id="nb-fechar">Fechar</button>
+        <button type="submit" class="botao botao-primario" id="nb-gerar">Gerar briefing</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js"></script>
+  <script src="js/formatos.js"></script>
+  <script src="js/graficos.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/assistente.js"></script>
+</body>
+</html>

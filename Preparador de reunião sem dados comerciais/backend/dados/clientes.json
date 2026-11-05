@@ -1,0 +1,144 @@
+{
+  "_comentario": "Cadastro dos clientes (só informações PÚBLICAS). Para adicionar um cliente, copie um bloco: segmento (arquivo em dados/setores/), sites oficiais, consultas de notícias, resinas que ele consome (foco do produto: 3901 PE e 3902 PP) e o perfil público já conhecido, com fontes.",
+  "mondial": {
+    "nome": "Mondial",
+    "segmento": "eletroportateis",
+    "kam": "Ana Ribeiro",
+    "sites": [
+      "https://www.mondial.com.br/",
+      "https://www.mondial.com.br/eletroportateis"
+    ],
+    "consultas_noticias": [
+      "Mondial eletrodomésticos",
+      "Mondial eletroportáteis",
+      "Grupo MK Mondial",
+      "MK Group Aiwa Mondial"
+    ],
+    "resinas": [
+      "3902"
+    ],
+    "perfil_publico": [
+      {
+        "item": "Controle",
+        "valor": "Marca do Grupo MK (dono também da AIWA no Brasil); sede em Barueri-SP",
+        "fonte": "Wikipedia; Click Petróleo e Gás"
+      },
+      {
+        "item": "Linhas",
+        "valor": "Eletroportáteis de cozinha (air fryer, liquidificador, cafeteira, batedeira), cuidados pessoais, ventilação/climatização, áudio e ferramentas",
+        "fonte": "Site mondial.com.br"
+      },
+      {
+        "item": "Fábrica Bahia",
+        "valor": "Conceição do Jacuípe-BA: eletroportáteis, ~3,5 mil empregados diretos",
+        "fonte": "A Tarde / Movimento Econômico"
+      },
+      {
+        "item": "Expansão 2026",
+        "valor": "Nova fábrica em Cruz das Almas-BA (R$ 45,7 mi iniciais; ~1.400 empregos); 1ª fase até o fim de 2026, para fornos elétricos e climatizadores — entrada em linhas com mais plástico de engenharia",
+        "fonte": "Movimento Econômico; Click Petróleo e Gás"
+      },
+      {
+        "item": "Vitrine 2026",
+        "valor": "Expositora na Eletrolar Show 2026, edição com foco em beleza e bem-estar (cuidados pessoais)",
+        "fonte": "Eletrolar News"
+      },
+      {
+        "item": "Porte",
+        "valor": "Grupo MK: faturamento de R$ 6,3 bi em 2023; marca Mondial ~R$ 5 bi",
+        "fonte": "A Tarde (entrevista com sócio-fundador)"
+      }
+    ]
+  },
+  "globalpack": {
+    "nome": "Globalpack",
+    "segmento": "embalagens_sopro",
+    "kam": "Rafael Moura",
+    "sites": [
+      "https://globalpack.com.br/home/",
+      "https://globalpack.com.br/segmentos/"
+    ],
+    "consultas_noticias": [
+      "Globalpack embalagens",
+      "Globalpack Vinhedo"
+    ],
+    "resinas": [
+      "3901"
+    ],
+    "perfil_publico": [
+      {
+        "item": "Sede",
+        "valor": "Vinhedo-SP (Distrito Industrial); operação em 7 estados",
+        "fonte": "Site da empresa; LinkedIn"
+      },
+      {
+        "item": "Porte",
+        "valor": "~1 bilhão de embalagens/ano, ~70 mil m² construídos, ~1.100 funcionários",
+        "fonte": "Site da empresa (autodeclarado)"
+      },
+      {
+        "item": "Processos",
+        "valor": "Extrusão-sopro (EBM), injeção-sopro (IBM), sopro de PET (ISBM), reciclagem bottle-to-bottle, decoração",
+        "fonte": "Site da empresa"
+      },
+      {
+        "item": "Produtos",
+        "valor": "Frascos (PP, PET, PE), bombonas, potes, preformas e resinas recicladas",
+        "fonte": "Site da empresa; ABRE"
+      },
+      {
+        "item": "Segmentos",
+        "valor": "Alimentos e bebidas, higiene e cosméticos, limpeza, farmacêutico, óleos e lubrificantes, agroquímicos",
+        "fonte": "Site da empresa (segmentos)"
+      },
+      {
+        "item": "Histórico",
+        "valor": "Ligada ao Grupo Itavema; concentrou operações de sopro em Vinhedo (2008)",
+        "fonte": "Jornal do Brasil (out/2008)"
+      }
+    ]
+  },
+  "bericap": {
+    "nome": "Bericap",
+    "segmento": "tampas_plasticas",
+    "kam": "Ana Ribeiro",
+    "sites": [
+      "https://bericap.com/"
+    ],
+    "consultas_noticias": [
+      "Bericap",
+      "Bericap tampas",
+      "Bericap closures"
+    ],
+    "resinas": [
+      "3901"
+    ],
+    "perfil_publico": [
+      {
+        "item": "Controle",
+        "valor": "Bericap do Brasil, do grupo alemão Bericap (sede em Budenheim), com cerca de 31 fábricas no mundo",
+        "fonte": "Bericap, press release interpack 2026"
+      },
+      {
+        "item": "Fábrica no Brasil",
+        "valor": "Sorocaba-SP (Av. Paraná, 2870); empresa fundada no Brasil em 1998",
+        "fonte": "Cadastro CNPJ 02.375.722/0001-56"
+      },
+      {
+        "item": "Produtos",
+        "valor": "Tampas plásticas e sistemas de fechamento para bebidas, óleos comestíveis, alimentos, lubrificantes e químicos",
+        "fonte": "Bericap; cadastros de fornecedores"
+      },
+      {
+        "item": "Certificações",
+        "valor": "ISO 9001, ISO 14001, ISO 45001 e FSSC 22000 (segurança de alimentos) em Sorocaba",
+        "fonte": "DQS (certificadora)"
+      },
+      {
+        "item": "Inovação 2026",
+        "valor": "Lançou na interpack (mar/26) as tampas Clean Cap 27 e Clip Cap 27; mostra tampas para garrafas retornáveis (RefPET) na BrauBeviale (nov/26)",
+        "fonte": "Bericap, notícias 2026"
+      }
+    ]
+  }
+}
