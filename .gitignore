@@ -7,7 +7,9 @@ Preparador de reunião com dados comerciais/backend/dados/clientes/
 Preparador de reunião com dados comerciais/backend/dados/peers/
 Preparador de reunião com dados comerciais/backend/dados/emails/
 Preparador de reunião com dados comerciais/backend/dados/reunioes/
-*/backend/dados/cache/
+Preparador de reunião com dados comerciais/backend/dados/cache/
+# Cache público do Comex/IBGE da versão de mercado fica no repositório: é a reserva quando o Comex recusa consultas
+Preparador de reunião sem dados comerciais/backend/dados/cache/*.zip
 
 # Informações de campo dos GCs: NÃO são públicas
 Preparador de reunião sem dados comerciais/backend/dados/notas_campo.json

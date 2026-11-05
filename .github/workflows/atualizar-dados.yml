@@ -38,6 +38,14 @@ jobs:
         working-directory: ${{ env.VERSAO }}/backend
         run: npm ci
 
+      - name: Testar acesso ao Comex Stat
+        continue-on-error: true
+        run: |
+          CONSULTA='{"flow":"import","monthDetail":false,"period":{"from":"2026-01","to":"2026-02"},"filters":[{"filter":"heading","values":["3902"]}],"details":["heading"],"metrics":["metricKG"]}'
+          curl -s -m 40 -o /dev/null -w "Comex Stat respondeu HTTP %{http_code} em %{time_total}s\n" \
+            -X POST -H 'Content-Type: application/json' -d "$CONSULTA" \
+            https://api-comexstat.mdic.gov.br/general || echo "Comex Stat inacessível a partir do GitHub"
+
       - name: Atualizar os números (Brent, câmbio, frete, Comex, IBGE, CVM, notícias)
         working-directory: ${{ env.VERSAO }}/backend
         run: node scripts/atualizar_dados.js --sem-pdf
